@@ -1,1 +1,6 @@
+title: Kaisawind Blog
+logo: /assets/img/Chibi.png
+description: This is kaisawind's blog.
+show_downloads: false
+google_analytics: UA-133305125-1
 theme: jekyll-theme-minimal
