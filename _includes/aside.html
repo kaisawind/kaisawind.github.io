@@ -1,0 +1,12 @@
+<aside class="site-aside" role="banner">
+  <div class="wrapper">        
+    {%- if site.logo -%}
+    <img src="{{site.logo | relative_url}}" alt="Logo" class="avatar_pic" />
+    {%- endif -%}
+
+    {%- if site.github.is_user_page -%}
+    <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+    {%- endif -%}
+  </div>
+</aside>
+  
