@@ -43,24 +43,9 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@media (max-width: 1649px) and (min-width: 1320px) {
-
-}
-
-@media (max-width: 1439px) and (min-width: 1320px) {
-
-}
-
-
 // Import partials.
 @import
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"
 ;
-
-@media screen and (min-width: 1320px) {
-  .container {
-    width: 1068px;
-  }
-}
