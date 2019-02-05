@@ -1,9 +1,11 @@
 <aside role="banner">   
-  <div class="card" style="width: 18rem;">
-    {%- if site.logo -%}
-    <img class="card-img-top" src="{{site.logo | relative_url}}" alt="Logo" class="avatar_pic" />
-    {%- endif -%}
+  <div class="card">
     <div class="card-body">
+    {%- if site.logo -%}
+      <div>
+        <img class="card-img-left avatar" src="{{site.logo | relative_url}}" alt="Logo"/>
+      </div>
+    {%- endif -%}
       <h5 class="card-title"> {{ site.github_username }} </h5>
       <p class="card-text"> {{ site.description }} </p>
       <a href="{{ site.github.owner_url }}">View My GitHub Profile</a>

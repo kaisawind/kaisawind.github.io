@@ -4,16 +4,6 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-.container {
-  aside {
-    float: left;
-  }
-
-  main {
-    float: right;
-  }
-}
-
 /**
  * Icons
  */
@@ -29,4 +19,75 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
   li + li {
     padding-top: 5px;
   }
+}
+
+.pt0 {
+  padding-top: 0 !important;
+}
+
+.avatar {
+  width: 143px;
+  height: 200px;
+}
+
+@media screen and (max-width:1320px) {
+
+	.container {
+		width: 1068px;
+	}
+
+	.container main {
+		width: 760px;
+	}
+}
+
+@media screen and (min-width:1320px) {
+	.container {
+		width: 1516px;
+	}
+
+	.container main {
+		width: 900px;
+	}
+
+}
+
+@media (min-width:1320px) and (max-width:1439px) {
+	.container {
+		width: 1208px
+	}
+}
+
+@media (max-width:1649px) and (min-width:1320px) {
+	.container {
+		width: 1208px
+	}
+}
+
+@media (min-width:1650px) {
+
+	.container main {
+		width: 1010px;
+	}
+
+	.container {
+		width: 1318px
+	}
+}
+
+aside {
+	width: 300px;
+	float: left;
+}
+
+main {
+  float: right;
+}
+
+.container {
+  max-width: unset;
+  padding: 24px 24px 0;
+  margin: 0 auto;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
