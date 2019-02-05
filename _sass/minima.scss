@@ -25,11 +25,6 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
   padding-top: 0 !important;
 }
 
-.avatar {
-  width: 143px;
-  height: 200px;
-}
-
 @media screen and (max-width:1320px) {
 
 	.container {
@@ -75,24 +70,19 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 	}
 }
 
-aside {
-	width: 300px;
-	float: left;
-}
-
 main {
   float: right;
 }
 
 .container {
   max-width: unset;
+  height: 100vh;
   padding: 24px 24px 0;
-  margin: 0 auto;
+  margin: 70px auto 70px auto;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-.card-box {
-  margin-bottom: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
-}
+@import 
+  "mixins/_aside"
+;
