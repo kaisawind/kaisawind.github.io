@@ -71,12 +71,12 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 }
 
 main {
-  float: right;
+	float: right;
+	margin-bottom: 100px;
 }
 
 .container {
   max-width: unset;
-  // height: 100vh;
   padding: 24px 24px 0;
   margin: 70px auto 70px auto;
   -webkit-box-sizing: content-box;
