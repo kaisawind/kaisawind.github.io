@@ -4,15 +4,88 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## 个人基本信息
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+* 电子邮件: wind.kaisa@gmail.com
+* Github: [https://github.com/kaisawind](https://github.com/kaisawind)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## 个人技能
 
+1. 熟练使用C/C++/go/nodejs进行项目开发，具有独立开发项目经验及团队开发经验。
+2. 熟练使用Python/perl/Shell等脚本编程语言。
+3. 了解及能够使用java,C#,vba等编程语言。
+4. 熟练使用Linux(ubuntu,centos,rhel)操作系统，了解Linux操作系统内核。
+5. 熟悉Linux环境下编程及进程间通信，多线程编程。
+6. 熟练使用docker,kubernetes(k8s), 了解服务器基本维护和开发。
+7. 具有网络基础知识，熟悉TCP/IP协议，熟悉Linux网络相关指令使用及Socket网络编程。
+8. 熟练掌握基本数据结构和算法。
+9. 熟悉mongodb,mysql,oracle等数据库。
+10. 熟悉前端框架Angular,Vue
+11. 熟悉后端框架Swagger,Grpc
 
-[jekyll-organization]: https://github.com/jekyll
+## 项目经验
+
+### 2012~2015
+
+* 项目介绍
+  后席车载娱乐系统：汽车坐席(后座，副驾驶座)以及车顶上车载娱乐系统
+
+* 负责内容
+  * 2012~2013
+    负责功能模块的开发，测试。主要是面向WinCE的开发，编程语言C、C++。
+    工作内容是接受底层数据进行处理后，进行部品的显示很更新。
+  * 2013~2014
+    负责底层描画引擎和共通模块的维护，以及各种工具的开发和维护。
+    编程语言C、C++、VBA、C#、Perl。
+    描画引擎主要是面向DirectX和Opengl，其中DirectX是用于PC调试用。OpenGL用于车载系统中部品的描画。
+    各种工具包括Excel生成代码工具(语言C#)，Excel生成测试脚本(语言VBA)。
+  * 2014~2015
+    担任主设计师，负责车载系统从WinCE向Linux的迁移。
+    迁移内容包括：基于linux的开发环境搭建，基于linux的PC测试环境迁移，以及基于linux的车载系统运行和调试。
+
+### 2016~2017
+  
+* 项目介绍
+  华为装备云: 通过云端管理和控制装备的使用和运行情况。
+  脚本检视: 通过网页输入脚本文件对xml文件是否正确进行判断，将检视过程和结果进行输出。
+  故障模拟: 通过驱动收集设备的信息，当设备不存在时，可以通过云端服务模拟设备的运行。
+
+* 负责内容
+  * 装备云
+    负责Web端功能模块的开发。使用框架是angular2/3/4/5,编程语言html、typescript、CSS。
+    工作内容是使用后端提供的http请求，对Web端部品进行显示和更新。
+  * 脚本检视
+    负责前端和后端业务逻辑的设计，前端页面做成和处理，后端数据的存储和检索。使用的框架是Angular4/5，编程语言Go，typescript，html，Css。
+  * 故障模拟
+    windows驱动编码，对接各种不同的通信协议(telnet，ssh，nginx)。编程语言C、Go。
+    当采集信息时，通过windows驱动截取串口和网口的数据；当模拟故障时，通过windows驱动将云端服务的信息上报给相应的硬件。采集和模拟时需要针对不同的协议进行解析用了存储和表示。
+
+### 2017~2018
+
+* 项目介绍
+  音声识别系统: 通过说话(麦克语音输入)的方式对车载系统进行控制。
+
+* 负责内容
+  担任项目负责人，负责项目进度、人员管理、作业分配以及与客户会议讨论需求与设计。
+  评审代码、测试用例和各种输出文档(需求分析，IT3，UT...)。
+  通过系统状态，让处理音声识别引擎(Nuance)能够将录入的声音识别为口令，通过口令进行进程间通信，控制车载系统响应。
+
+### 2018~2019
+
+* 项目介绍
+  深度学习管理平台: 通过k8s云平台，使用容器技术，运行各种不同的深度学习框架，并通过对学习过程中和学习结束后的成果物进行跟踪和分析，将学习过程和结果通过Web端进行显示。
+  物联网云平台：通过k8s云平台，动态创建和删除产品微服务，对与云平台相关联的设备进行管理，状态维护和定位。
+
+* 负责内容：
+  * 深度学习管理平台
+    资源监控，容器镜像管理，日志管理，告警管理模块开发。
+    使用的框架：Vue,swagger,grpc
+    使用的编程语言：Go,nodejs
+    架构设计: 前后端分离，前端使用Vue，中间件使用swagger，微服务使用grpc。
+    使用prometheus进行集群资源监控，使用registry进行容器镜像管理，使用elasticsearch进行日志管理，使用alertmanager进行告警管理。
+  * 物联网云平台
+    产品和设备创建和更新，设备收发消息的存储。
+    使用的框架：Vue,swagger,grpc
+    使用的编程语言：Go,nodejs
+    架构设计: 前后端分离，前端使用Vue，中间件使用swagger，微服务使用grpc。
+    rabbitmq进行消息的分发，使用dnsmq进行端口的收束，通信协议使用mqtt。
