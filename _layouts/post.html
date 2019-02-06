@@ -1,27 +1,35 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="card">
+    <div class="card-header bg-transparent">
+      <h2 class="card-title">{{ page.title }}</h2>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}
+        <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">{{ site.github_username }}</a>
+        <span>
+          分类：
+        {%- for category in page.categories -%}
+          <span class="badge badge-secondary">{{ category }}</span>
+        {%- endfor -%}
+        </span>
+      </h6>
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{ content }}</p>
+    </div>
+    <div class="card-footer text-muted bg-transparent">
+      {%- if site.disqus.shortname -%}
+        {%- include disqus_comments.html -%}
+      {%- endif -%}
+      <span>
+          标签：
+      {%- for tag in page.tags -%}
+        <span class="badge badge-secondary">{{ tag }}</span>
+      {%- endfor -%}
+      </span>
+      <a href="{{ page.url | relative_url }}" class="card-link" hidden></a>
+    </div>
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
