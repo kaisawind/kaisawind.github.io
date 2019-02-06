@@ -1,34 +1,55 @@
 ---
 layout: default
 ---
-
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
+<div>
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+  <div class="list-group">
+    {%- if paginator.posts.size > 0 -%}
+      <!-- This loops through the paginated posts -->
+      {% for post in paginator.posts %}
+      <a href="{{ post.url | relative_url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">
+            {{ post.title }}
+          </h5>
+          <h5 class="mb-1">
+          {%- for category in post.categories -%}
+            <span class="badge badge-secondary">{{ category }}</span>
+          {%- endfor -%}
+          </h5>
+        </div>
+        <p class="mb-1">{{ post.excerpt }}</p>
+        <small>{{ post.date | date: "%Y-%m-%d %H:%M" }}</small>
+      </a>
       {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+      <div class="alert alert-primary" role="alert">
+      subscribe <a class="card-link" href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+      </div>
+    {%- endif -%}
+  </div>
+  <!-- Pagination links -->
+  <ul class="pagination justify-content-center">
+    {% if paginator.previous_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}">上一页</a></li>
+    {% else %}
+    <li class="page-item disabled"><a class="page-link" href="#">上一页</a></li>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li class="page-item active"><a class="page-link" href="#">{{ page }}</a></li>
+      {% else %}
+      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}">下一页</a></li>
+    {% else %}
+    <li class="page-item disabled"><a class="page-link" href="#">下一页</a></li>
+    {% endif %}
+    <li class="page-item disabled">
+      <a class="page-link" href="#">
+        第{{ paginator.page }}页 / 共{{ paginator.total_pages }}页
+      </a>
+    </li>
+  </ul>
 </div>
