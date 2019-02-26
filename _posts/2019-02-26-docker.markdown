@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Docker删除none镜像"
+date: 2019-2-26 14:25:50 +0800
+categories: [docker]
+excerpt_separator: <!--more-->
+---
+Docker删除none镜像和Exited的容器
+<!--more-->
+
+`docker stop $(docker ps -a | grep "Exited" | awk '{print $1 }')` //停止容器
+`docker rm $(docker ps -a | grep "Exited" | awk '{print $1 }')` //删除容器
+`docker rmi $(docker images | grep "none" | awk '{print $3}')` //删除镜像
