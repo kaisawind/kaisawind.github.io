@@ -1,4 +1,9 @@
-# minima
+# [kaisawind](https://www.kaisawind.com)
+
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/kaisawind/kaisawind.github.io/master/LICENSE.txt)
+[![jekyll](https://img.shields.io/gem/v/jekyll.svg?label=jekyll)](https://jekyllrb.com/)
+[![minima](https://img.shields.io/gem/v/minima.svg?label=minima)](https://jekyll.github.io/minima/)
+[![bootstrap](https://img.shields.io/gem/v/bootstrap.svg?label=bootstrap&color=blueviolet)](https://getbootstrap.com/)
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
