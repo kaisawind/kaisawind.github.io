@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 
 Registry是一个无状态，高度可扩展的服务端应用程序，可存储并允许您分发Docker镜像。
-从docker官方镜像库拉去镜像太慢，所以需要本地的Registry进行服务的本地话管理。
+从docker官方镜像库拉去镜像太慢，所以需要本地的Registry进行镜像的本地化管理。
 
 <!--more-->
 
