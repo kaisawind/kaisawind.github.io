@@ -4,6 +4,7 @@
 [![jekyll](https://img.shields.io/gem/v/jekyll.svg?label=jekyll)](https://jekyllrb.com/)
 [![minima](https://img.shields.io/gem/v/minima.svg?label=minima)](https://jekyll.github.io/minima/)
 [![bootstrap](https://img.shields.io/gem/v/bootstrap.svg?label=bootstrap&color=blueviolet)](https://getbootstrap.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c40090e1-18c5-484c-91b0-38d1bcae13c5/deploy-status)](https://app.netlify.com/sites/kaisawind/deploys)
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
