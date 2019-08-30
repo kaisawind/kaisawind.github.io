@@ -8,7 +8,8 @@
   "scripts": {
     "server": "hexo server",
     "build": "hexo build",
-    "theme:upgrade": "git subtree pull --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master"
+    "theme:pull": "git subtree pull --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master",
+    "theme:push": "git subtree push --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master"
   },
   "dependencies": {
     "hexo": "^3.9.0",
