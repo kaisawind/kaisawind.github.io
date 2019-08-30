@@ -4,7 +4,7 @@
 <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
 <% } %>
 <% if (theme.favicon){ %>
-<link rel="icon" href="<%- theme.favicon %>">
+<link rel="shortcut icon" href="<%- theme.favicon %>" type="image/png">
 <% } %>
 <link href="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/css/style.css?v=<%=theme.version%>" rel="stylesheet">
 <% if(theme.highlight && theme.highlight.on && theme.highlight.theme){ %>
