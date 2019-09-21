@@ -7,6 +7,22 @@ tags: [android, flutter, windows]
 excerpt_separator: <!--more-->
 ---
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [1. 概述](#1-概述)
+- [2. 设计概要](#2-设计概要)
+  - [2.1 类设计](#21-类设计)
+- [3. 代码模板](#3-代码模板)
+  - [3.1 `SpKeys`](#31-spkeys)
+  - [3.2 `SpUtils`](#32-sputils)
+  - [3.3 `my_shared_preferences.dart`](#33-my_shared_preferencesdart)
+
+<!-- /code_chunk_output -->
+
+
 ## 1. 概述
 
 <img src="https://img.shields.io/pub/v/shared_preferences" />
