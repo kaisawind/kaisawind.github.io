@@ -7,6 +7,20 @@ tags: [android, flutter]
 excerpt_separator: <!--more-->
 ---
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [1. 概述](#1-概述)
+- [2. 使用方法](#2-使用方法)
+  - [2.1 添加依赖](#21-添加依赖)
+  - [2.2 添加路由代码](#22-添加路由代码)
+  - [2.3 路由初期化和注册](#23-路由初期化和注册)
+
+<!-- /code_chunk_output -->
+
+
 ## 1. 概述
 
 ![Pub](https://img.shields.io/pub/v/fluro)
