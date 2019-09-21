@@ -26,6 +26,8 @@ excerpt_separator: <!--more-->
 
 ## 1. 概述
 
+![GitHub release (latest by date)](https://img.shields.io/badge/flutter-v1.10.4--pre.53-blue)
+
 `StatefulWidget`是flutter的有状态组件，通过`State`类对数据进行管理。
 example代码位置: [example](https://github.com/kaisawind/flutter_example/tree/c332a09515764af9cb7a92d9f0264f3a02809e84)
 

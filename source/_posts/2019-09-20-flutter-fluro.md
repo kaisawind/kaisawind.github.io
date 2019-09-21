@@ -24,6 +24,7 @@ excerpt_separator: <!--more-->
 ## 1. 概述
 
 ![Pub](https://img.shields.io/pub/v/fluro)
+![GitHub release (latest by date)](https://img.shields.io/badge/flutter-v1.10.4--pre.53-blue)
   
 Fluro是flutter的路由插件，能够很方便的进行静态路由导航，和字符串路由传参。
 
