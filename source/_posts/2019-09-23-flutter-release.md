@@ -7,6 +7,35 @@ tags: [android, flutter, windows]
 excerpt_separator: <!--more-->
 ---
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [1. 概述](#1-概述)
+- [2. 添加启动图标](#2-添加启动图标)
+  - [2.1 启动图标设计规范](#21-启动图标设计规范)
+  - [2.2 启动图标存储位置](#22-启动图标存储位置)
+  - [2.3 修改`AndroidManifest`](#23-修改androidmanifest)
+  - [2.4 验证是否替换成功](#24-验证是否替换成功)
+- [3. App认证](#3-app认证)
+  - [3.1 创建key](#31-创建key)
+  - [3.2 添加`key.properties`](#32-添加keyproperties)
+  - [3.3 修正`build.gradle`](#33-修正buildgradle)
+- [4. 启用规则缩小apk大小](#4-启用规则缩小apk大小)
+  - [4.1 创建规则](#41-创建规则)
+  - [4.2 app关联规则](#42-app关联规则)
+- [5. 额外项检查](#5-额外项检查)
+  - [5.1 外网访问权限](#51-外网访问权限)
+  - [5.2 app名](#52-app名)
+  - [5.3 检查编译配置项](#53-检查编译配置项)
+- [6. 编译release版本](#6-编译release版本)
+  - [6.1 flutter编译](#61-flutter编译)
+  - [6.2 Android Studio编译](#62-android-studio编译)
+
+<!-- /code_chunk_output -->
+
+
 ## 1. 概述
 
 debug是用来调试的版本，会输出很多日志，加载不必要的插件，release版中会去掉这些内容，使app更稳定，更小，更快。
