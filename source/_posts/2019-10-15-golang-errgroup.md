@@ -63,3 +63,5 @@ func main() {
 4. 全协程退出后，会触发`group.Wait()`
 
 5. `group.Wait()`的返回错误，只会有最近一次错误
+
+6. `cancel`和`errCtx.Done()`只能在`group.Go`中有效
