@@ -98,7 +98,7 @@ searchAll: false
 copyright: true
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -126,7 +126,7 @@ article_list:
 
 # 文章列表背景图
 article_bg_img:
-  on: true # 是否开启
+  on: false # 是否开启
   src: https://www.kaisawind.com/img/background.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
@@ -167,7 +167,7 @@ code:
 highlight:
   on: true # true开启代码高亮
   lineNum: true # true显示行号
-  theme: atom-light
+  theme: github
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
 # 支持主题：
 # sublime : 参考sublime的高亮主题
