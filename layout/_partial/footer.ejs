@@ -1,4 +1,4 @@
-<script src="<%=theme.CDN.pjax%>"></script>
+<script src="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/jquery.pjax.js?v=<%=theme.version%>" ></script>
 <% if (theme.img_resize == 'photoSwipe') {%>
 <script src="<%=theme.CDN.photoswipe_js%>"></script>
 <script src="<%=theme.CDN.photoswipe_ui_js%>"></script>
@@ -304,6 +304,26 @@
             // execute above function
             initPhotoSwipeFromDOM(gallerySelector);
         }
+        <% } %>
+        <% if (theme.mermaid.on) { %>
+        /* 渲染*/
+        function HTMLDecode(text) {
+            var temp = document.createElement("div");
+            temp.innerHTML = text;
+            var output = temp.innerText || temp.textContent;
+            temp = null;
+            return output;
+        }
+        if (window.mermaid){
+            window.mermaid = null
+        }
+        $.getScript("<%=theme.mermaid.cdn%>", function () {
+            var mermaidOptions = JSON.parse(HTMLDecode("<%=JSON.stringify(theme.mermaid.options) %>"))
+            if (window.mermaid) {
+                mermaid.initialize(mermaidOptions)
+                mermaid.contentLoaded()
+            }
+        })
         <% } %>
     }
 
