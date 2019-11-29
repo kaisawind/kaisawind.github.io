@@ -14,6 +14,16 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 ```
 
+vim/vi 批量替换字符串
+```bash
+%s#%releasever#7#g
+```
+
+```bash
+sudo yum makecache
+sudo yum update -y
+```
+
 ### alphin
 
 阿里云
