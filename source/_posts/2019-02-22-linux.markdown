@@ -38,6 +38,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 ### ubuntu
 ```shell
 sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+sed -i 's/security.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 ```
 
 ### debian
