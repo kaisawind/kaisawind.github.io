@@ -8,6 +8,16 @@ excerpt_separator: <!--more-->
 golang设计模式(单例模式)
 <!--more-->
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [1. 概述](#1-概述)
+- [2. 代码](#2-代码)
+
+<!-- /code_chunk_output -->
+
+
 ## 1. 概述
 
 * 意图：

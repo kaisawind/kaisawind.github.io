@@ -9,6 +9,18 @@ excerpt_separator: <!--more-->
 k8s添加dashboard web ui
 <!--more-->
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [1. 部署dashboard](#1-部署dashboard)
+- [2. 创建用户](#2-创建用户)
+- [3. 获取token](#3-获取token)
+- [4. 替换证书](#4-替换证书)
+
+<!-- /code_chunk_output -->
+
+
 ## 1. 部署dashboard
 
 ```bash
