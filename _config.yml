@@ -8,6 +8,8 @@ favicon: /img/avatar.png
 blog_path: /
 
 google_analytics: UA-133305125-1
+baidu_analytics: 9ca75308a62b10eb5f4745c91a9b668b
+gauges_analytics: 5e27b263b1e3fb6890389f45
 
 #链接图标 显示顺序和下面顺序一致
 link:

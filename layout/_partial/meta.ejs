@@ -32,15 +32,7 @@
 <% if (theme.comment.type == 'gitalk') {%>
 <script src="<%= theme.CDN.jquery_cookie %>" ></script>
 <%}%>
-<% if (theme.google_analytics) {%>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<%=theme.google_analytics%>"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '<%=theme.google_analytics%>');
-</script>
-<%}%>
+<%- partial('google-analytics') %>
+<%- partial('baidu-analytics') %>
+<%- partial('gauges-analytics') %>
 <script src="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/iconfont.js?v=<%=theme.version%>" ></script>
