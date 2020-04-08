@@ -29,6 +29,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-b
 
 ## 2. 创建用户
 
+创建用户
 ```yaml
 apiVersion: v1
 kind: ServiceAccount
@@ -50,8 +51,24 @@ subjects:
   namespace: kubernetes-dashboard
 ```
 
+修改deployment替换用户
+```bash
+kubectl edit deployment kubernetes-dashboard -n kubernetes-dashboard
+```
+
+```yaml
+serviceAccountName: kubernetes-dashboard
+serviceAccount: kubernetes-dashboard
+```
+替换为
+```yaml
+serviceAccountName: admin-user
+serviceAccount: admin-user
+```
+
 ## 3. 获取token
 
+使用token登录时会用到
 ```bash
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 ```
@@ -74,6 +91,12 @@ token:      eyJhbGciOiJSUzI1NiIsImtpZCI6ImhCRWFzbzNObVcxLW9EeUZZVnNzLXM4ZnRDZWlY
 
 ## 4. 替换证书
 
+删除以前的证书
+```bash
+kubectl delete secret kubernetes-dashboard-certs -n kubernetes-dashboard
+```
+
+创建新的证书
 ```bash
 mkdir certs
 openssl req -nodes -newkey rsa:2048 -keyout certs/dashboard.key -out certs/dashboard.csr -subj "/C=/ST=/L=/O=/OU=/CN=kubernetes-dashboard"
