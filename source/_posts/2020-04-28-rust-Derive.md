@@ -26,3 +26,56 @@ Rust语言Derive说明
 |Default|默认值|默认值|
 |Debug|`{:?}`进行格式化|`{:?}`进行格式化|
 
+## 2.1 Eq VS PartialEq
+
+等价关系需要满足的条件：
+
+* 对称性（Symmetry）：a == b 可推出 b == a
+* 传递性（Transitivity）：a == b 且 b == c 可推出 a == c
+* 反身性（Reflexivity）：a == a
+
+Rust只实现了PartialEq,由于IEEE规定浮点数和NaN不等于自身，所以反身性不成立。这也导致Eq需要手动进行判断。
+
+对于大多数类型来说，Eq和PartialEq需要同时存在。
+原始字段
+```rust
+enum BookFormat { Paperback, Hardback, Ebook }
+struct Book {
+    isbn: i32,
+    format: BookFormat,
+}
+```
+使用`derive`
+```rust
+#[derive(PartialEq,Eq)]
+enum BookFormat { Paperback, Hardback, Ebook }
+#[derive(PartialEq,Eq)]
+struct Book {
+    isbn: i32,
+    format: BookFormat,
+}
+```
+具体实现
+```rust
+
+enum BookFormat { Paperback, Hardback, Ebook }
+
+impl PartialEq<BookFormat> for BookFormat {
+    fn eq(&self, other: &BookFormat) -> bool {
+        self == *other
+    }
+}
+impl Eq for BookFormat {}
+
+struct Book {
+    isbn: i32,
+    format: BookFormat,
+}
+
+impl PartialEq<Book> for Book {
+    fn eq(&self, other: &Book) -> bool {
+        self.isbn == *other.isbn && self.format == *other.format
+    }
+}
+impl Eq for Book {}
+```
