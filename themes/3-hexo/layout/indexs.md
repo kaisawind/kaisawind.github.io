@@ -1,6 +1,8 @@
 # Why Blog
 
-## gitmemory
+国内请访问gitee镜像站 https://kaisawind.gitee.io/
+
+## git印象
 <iframe src="https://www.gitmemory.com/kaisawind" width="700px" height="500px" frameborder="0" scrolling="no">
 </iframe>
 

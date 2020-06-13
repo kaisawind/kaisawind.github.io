@@ -236,6 +236,8 @@ gentie:
 gitalk:
   githubID: kaisawind
   repo: kaisawind.github.io
+  GiteeID: 8f77e5a276952209e784
+  GiteeSecret: c9e732575d003de367a9f6e0188ecb3346ac2fe0
   ClientID: 5ad30d9152deb6a8836a
   ClientSecret: 813f5b956c3fbe9bad8bba5117209d3a0d97db31
   adminUser: kaisawind
