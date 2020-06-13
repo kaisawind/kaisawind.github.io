@@ -4,15 +4,15 @@
 <script type="text/javascript">
     $.getScript('<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/gitalk.js', function () {
         var gitalk = new Gitalk({
-            clientID: '<%=theme.gitalk.ClientID %>',
-            clientSecret: '<%=theme.gitalk.ClientSecret %>',
+            clientID: window.location.host === 'kaisawind.gitee.io' ? '<%=theme.gitalk.GiteeID%>' : '<%=theme.gitalk.ClientID%>',
+            clientSecret: window.location.host === 'kaisawind.gitee.io' ? '<%=theme.gitalk.GiteeSecret %>' : '<%=theme.gitalk.ClientSecret %>',
             repo: '<%=theme.gitalk.repo %>',
             owner: '<%=theme.gitalk.githubID %>',
             admin: ['<%=theme.gitalk.adminUser %>'],
             id: decodeURI(location.pathname),
             distractionFreeMode: '<%=theme.gitalk.distractionFreeMode %>',
             language: '<%=theme.gitalk.language %>',
-            perPage: parseInt('<%=theme.gitalk.perPage %>',10)
+            perPage: parseInt('<%=theme.gitalk.perPage %>', 10)
         })
         gitalk.render('comments')
     })
