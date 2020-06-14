@@ -18,7 +18,6 @@ excerpt_separator: <!--more-->
 单if判断
 ```go
 if x == 0 {
-
 }
 ```
 
@@ -43,7 +42,6 @@ func binarySearch(arr []int, low, high, hkey int) int {
 单for循环
 ```go
 for k, v := range n... {
-
 }
 ```
 
@@ -52,7 +50,6 @@ for k, v := range n... {
 ```go
 for k, v := range n... {
     for k, v := range n... {
-
     }
 }
 ```
