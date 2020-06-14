@@ -192,7 +192,7 @@ highlight:
 # MathJax 数学公式支持
 mathjax:
   on: true #是否启用
-  per_page: false # 若只渲染单个页面，此选项设为false，页面内加入 mathjax: true
+  per_page: true # 若只渲染单个页面，此选项设为false，页面内加入 mathjax: true
 
 # Mermaid 支持
 mermaid:
