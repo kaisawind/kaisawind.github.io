@@ -2,7 +2,7 @@
 layout: post
 title:  "golang压缩包方式安装"
 date: 2020-03-05 14:15:12 +0800
-categories: [golang]
+categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---
 golang压缩包方式安装

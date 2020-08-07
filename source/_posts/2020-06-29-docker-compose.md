@@ -2,7 +2,7 @@
 layout: post
 title:  "容器运行docker-compose"
 date: 2020-06-29 15:31:42 +0800
-categories: [docker, arm]
+categories: [docker, compose]
 tags: [docker, linux, arm]
 excerpt_separator: <!--more-->
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker Registry服务部署"
 date: 2019-04-24 17:19:43 +0800
-categories: [docker]
+categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "linux使用qemu安装arm64开发环境"
 date: 2020-02-11 10:01:04 +0800
-categories: [arm]
+categories: [虚拟化,qemu]
 tags: [arm64, ubuntu19.10, linux]
 excerpt_separator: <!--more-->
 ---

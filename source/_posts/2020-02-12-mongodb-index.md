@@ -2,7 +2,7 @@
 layout: post
 title:  "mongodb创建索引(index)"
 date: 2020-02-12 09:18:04 +0800
-categories: [mongodb, goland]
+categories: [数据库, mongodb]
 tags: [mongodb, goland]
 excerpt_separator: <!--more-->
 ---

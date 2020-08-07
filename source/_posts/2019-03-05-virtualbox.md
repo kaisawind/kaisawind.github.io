@@ -2,7 +2,7 @@
 layout: post
 title:  "virtualbox与HyperV冲突"
 date: 2019-3-5 11:09:04 +0800
-categories: [linux]
+categories: [虚拟化,virtualbox]
 excerpt_separator: <!--more-->
 ---
 

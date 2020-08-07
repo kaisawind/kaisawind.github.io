@@ -2,7 +2,7 @@
 layout: post
 title:  "golang设计模式(简单工厂)"
 date: 2019-12-10 15:58:00  +0800
-categories: [golang]
+categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---
 golang设计模式(简单工厂)

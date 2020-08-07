@@ -2,7 +2,7 @@
 layout: post
 title:  "golang errGroup使用"
 date: 2019-10-16 14:24:12 +0800
-categories: [golang]
+categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---
 golang errGroup使用与理解

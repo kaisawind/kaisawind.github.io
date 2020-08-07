@@ -2,7 +2,7 @@
 layout: post
 title:  "CentOS系统初期配置"
 date: 2019-10-21 15:02:04 +0800
-categories: [linux]
+categories: [linux,centos]
 tags: [linux, centos]
 excerpt_separator: <!--more-->
 ---

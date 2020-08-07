@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Docker"
+title:  "Docker基本命令"
 date: 2019-2-6 17:58:46 +0800
-categories: [docker]
+categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---
 通常使用的docker命令.

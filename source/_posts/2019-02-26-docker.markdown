@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker删除none镜像"
 date: 2019-2-26 14:25:50 +0800
-categories: [docker]
+categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---
 Docker删除none镜像和Exited的容器

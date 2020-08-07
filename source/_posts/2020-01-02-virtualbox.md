@@ -2,7 +2,7 @@
 layout: post
 title: "virtualbox虚拟机命令行安装增强功能"
 date: 2020-01-02 10:18:00 +0800
-categories: [linux]
+categories: [虚拟化,virtualbox]
 tags: [linux,virtualbox,centos]
 excerpt_separator: <!--more-->
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "go-nsq简单教程"
 date: 2020-07-07 14:38:42 +0800
-categories: [MQ,golang]
+categories: [消息队列,nsq]
 tags: [MQ, nsq, golang]
 excerpt_separator: <!--more-->
 ---

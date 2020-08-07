@@ -2,7 +2,7 @@
 layout: post
 title:  "java各版本比较"
 date: 2020-02-25 17:20:04 +0800
-categories: [java]
+categories: [编程语言,java]
 tags: [java]
 excerpt_separator: <!--more-->
 ---
