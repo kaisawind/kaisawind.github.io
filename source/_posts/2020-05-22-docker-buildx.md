@@ -22,9 +22,22 @@ Docker Buildx是docker19.03的`experimental feature`，使用时需要打开`exp
 
 ## 2. 使用
 
+buildx配置文件
+```toml
+[registry."docker.io"]
+    mirrors = ["reg-mirror.qiniu.com"]
+    
+[registry."192.168.1.118:5000"]
+    http = true
+    insecure = true
+```
+`mirrors`: 镜像加速器地址
+`http`和`insecure`: 允许非安全的http仓库地址
+
+
 创建buildx句柄
 ```bash
-docker buildx create --use --name mybuild
+docker buildx create --use --name mybuilder --config=/home/${USER}/.docker/buildx/config.toml
 ```
 查看支持的平台
 ```bash
