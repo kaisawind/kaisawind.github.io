@@ -77,7 +77,7 @@ fi
 if [ "$(pwd)" != '/' ]; then
     VOLUMES="-v $(pwd):$(pwd)"
 fi
-# if [ -n "$COMPOSE_FILE" ]; then
+if [ -n "$COMPOSE_FILE" ]; then
     COMPOSE_OPTIONS="$COMPOSE_OPTIONS -e COMPOSE_FILE=$COMPOSE_FILE"
     compose_dir=$(realpath "$(dirname "$COMPOSE_FILE")")
 fi
