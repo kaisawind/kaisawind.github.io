@@ -30,7 +30,7 @@ http://www.jinbuguo.com/systemd/systemd.service.html#
 ## 2. 整体结构
 
 
-```text
+```conf
 [Unit]
 Description=Foo
 
