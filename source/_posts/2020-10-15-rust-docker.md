@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rust的alpine的docker编译环境"
-date: 2020-10-15 11:30:04 +0800
+date: 2020-10-15 11:30:04
 categories: [编程语言,rust]
 tags: [rust, manjaro, linux]
 excerpt_separator: <!--more-->

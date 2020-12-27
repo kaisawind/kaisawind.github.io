@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "docker运行geoserver服务"
-date: 2020-01-08 10:59:00 +0800
+date: 2020-01-08 10:59:00
 categories: [map]
 tags: [linux,map,docker]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ffmpeg编译时configure选项(Options)"
-date: 2019-11-19 10:45:37 +0800
+date: 2019-11-19 10:45:37
 categories: [FFmpeg]
 tags: [ffmpeg, windows]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "批处理kill隐藏的cmd窗口"
-date: 2020-04-29 09:40:04 +0800
+date: 2020-04-29 09:40:04
 categories: [编程语言,bat]
 tags: [bat, windows]
 excerpt_separator: <!--more-->

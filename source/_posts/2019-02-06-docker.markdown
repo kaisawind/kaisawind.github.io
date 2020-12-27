@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker基本命令"
-date: 2019-2-6 17:58:46 +0800
+date: 2019-2-6 17:58:46
 categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---

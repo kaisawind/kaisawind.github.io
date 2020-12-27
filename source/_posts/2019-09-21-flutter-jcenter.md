@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jcenter访问失败(翻墙)"
-date: 2019-9-21 21:57:36 +0800
+date: 2019-9-21 21:57:36
 categories: [flutter]
 tags: [android, flutter, windows]
 excerpt_separator: <!--more-->

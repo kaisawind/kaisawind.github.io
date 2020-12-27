@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "golang tool pprof简单使用"
-date: 2020-07-14 14:35:12 +0800
+date: 2020-07-14 14:35:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

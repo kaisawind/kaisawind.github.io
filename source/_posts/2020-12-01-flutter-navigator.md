@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "flutter路由2.0"
-date: 2020-12-01 09:43:12 +0800
+date: 2020-12-01 09:43:12
 categories: [flutter]
 tags: [flutter, linux]
 excerpt_separator: <!--more-->

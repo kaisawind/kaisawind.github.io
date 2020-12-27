@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenJDK与JDK比较"
-date: 2020-03-02 09:40:04 +0800
+date: 2020-03-02 09:40:04
 categories: [编程语言,java]
 tags: [java]
 excerpt_separator: <!--more-->

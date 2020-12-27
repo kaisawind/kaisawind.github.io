@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "systemctl配置文件写法"
-date: 2020-09-01 10:30:04 +0800
+date: 2020-09-01 10:30:04
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

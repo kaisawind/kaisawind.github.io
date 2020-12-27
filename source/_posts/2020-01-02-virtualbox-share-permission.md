@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "virtualbox虚拟机共享文件夹权限"
-date: 2020-01-02 10:18:00 +0800
+date: 2020-01-02 10:18:00
 categories: [虚拟化,virtualbox]
 tags: [linux,virtualbox,centos]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "fluro:flutter路由"
-date: 2019-9-20 15:35:50 +0800
+date: 2019-9-20 15:35:50
 categories: [flutter]
 tags: [android, flutter]
 excerpt_separator: <!--more-->

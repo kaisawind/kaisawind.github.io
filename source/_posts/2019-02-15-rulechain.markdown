@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "规则引擎概要"
-date: 2019-2-15 15:59:07 +0800
+date: 2019-2-15 15:59:07
 categories: [other]
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "k8s添加dashboard web ui"
-date: 2019-11-28 12:05:54 +0800
+date: 2019-11-28 12:05:54
 categories: [k8s]
 tags: [k8s, linux]
 excerpt_separator: <!--more-->

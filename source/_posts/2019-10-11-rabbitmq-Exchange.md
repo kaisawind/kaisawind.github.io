@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "rabbitmq exchange理解"
-date: 2019-10-11 16:20:05 +0800
+date: 2019-10-11 16:20:05
 categories: [消息队列,rabbitmq]
 tags: [MQ, rabbitmq]
 excerpt_separator: <!--more-->

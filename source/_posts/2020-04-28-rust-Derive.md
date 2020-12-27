@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rust语言Derive说明"
-date: 2020-04-28 11:38:04 +0800
+date: 2020-04-28 11:38:04
 categories: [编程语言,rust]
 tags: [rust, manjaro, linux]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "systemd配置timer(定时)"
-date: 2020-09-04 10:55:04 +0800
+date: 2020-09-04 10:55:04
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

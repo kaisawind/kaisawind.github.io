@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "k8s无法删除pod解决方法"
-date: 2019-2-18 14:35:46 +0800
+date: 2019-2-18 14:35:46
 categories: [k8s]
 excerpt_separator: <!--more-->
 ---

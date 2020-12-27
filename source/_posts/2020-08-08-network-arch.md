@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "计算机网络构成"
-date: 2020-08-08 16:21:04 +0800
+date: 2020-08-08 16:21:04
 categories: [网络工程]
 tags: [network]
 excerpt_separator: <!--more-->

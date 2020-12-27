@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "shared_preferences:flutter数据存储"
-date: 2019-9-21 20:49:46 +0800
+date: 2019-9-21 20:49:46
 categories: [flutter]
 tags: [android, flutter, windows]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "geoserver多级别显示解决方法"
-date: 2020-01-08 12:09:00 +0800
+date: 2020-01-08 12:09:00
 categories: [map]
 tags: [linux,map,docker]
 excerpt_separator: <!--more-->

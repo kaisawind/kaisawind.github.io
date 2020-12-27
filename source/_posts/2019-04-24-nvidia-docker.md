@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nvidia Docker安装"
-date: 2019-04-24 16:57:44 +0800
+date: 2019-04-24 16:57:44
 categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---

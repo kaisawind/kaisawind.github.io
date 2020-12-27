@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "cgo中callback函数的实现"
-date: 2020-10-24 18:25:12 +0800
+date: 2020-10-24 18:25:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

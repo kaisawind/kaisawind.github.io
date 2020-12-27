@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "pyinstaller打包工具"
-date: 2020-08-21 14:59:04 +0800
+date: 2020-08-21 14:59:04
 categories: [编程语言,python]
 excerpt_separator: <!--more-->
 ---

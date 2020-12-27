@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "golang errGroup使用"
-date: 2019-10-16 14:24:12 +0800
+date: 2019-10-16 14:24:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

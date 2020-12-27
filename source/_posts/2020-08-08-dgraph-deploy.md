@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用docker部署dgraph"
-date: 2020-08-08 00:57:04 +0800
+date: 2020-08-08 00:57:04
 categories: [数据库, dgraph]
 tags: [dgraph,docker]
 excerpt_separator: <!--more-->

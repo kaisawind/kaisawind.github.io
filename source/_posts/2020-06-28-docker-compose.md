@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "docker buildx构建多平台compose镜像"
-date: 2020-06-28 17:55:42 +0800
+date: 2020-06-28 17:55:42
 categories: [docker, compose]
 tags: [docker, linux, arm]
 excerpt_separator: <!--more-->

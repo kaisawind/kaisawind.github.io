@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Go语言异常处理defer,panic,recover"
-date: 2019-2-19 14:34:20 +0800
+date: 2019-2-19 14:34:20
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

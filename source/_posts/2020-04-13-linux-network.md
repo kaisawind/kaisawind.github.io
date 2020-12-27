@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linux网络检测命令"
-date: 2020-04-13 11:10:16 +0800
+date: 2020-04-13 11:10:16
 categories: [linux,linux]
 tags: [linux]
 excerpt_separator: <!--more-->

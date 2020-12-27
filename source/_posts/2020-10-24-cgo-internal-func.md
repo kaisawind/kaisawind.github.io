@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "cgo中内置函数"
-date: 2020-10-24 19:31:12 +0800
+date: 2020-10-24 19:31:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

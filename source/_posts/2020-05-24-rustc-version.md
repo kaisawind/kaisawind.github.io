@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "rustc版本查看"
-date: 2020-05-24 15:28:42 +0800
+date: 2020-05-24 15:28:42
 categories: [编程语言,rust]
 tags: [rust, linux]
 excerpt_separator: <!--more-->

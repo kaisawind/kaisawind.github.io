@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "github docker packages使用"
-date: 2020-07-13 11:35:42 +0800
+date: 2020-07-13 11:35:42
 categories: [git]
 excerpt_separator: <!--more-->
 ---

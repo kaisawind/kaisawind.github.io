@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker删除none镜像"
-date: 2019-2-26 14:25:50 +0800
+date: 2019-2-26 14:25:50
 categories: [docker,docker]
 excerpt_separator: <!--more-->
 ---

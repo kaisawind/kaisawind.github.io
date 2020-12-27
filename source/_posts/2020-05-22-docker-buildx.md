@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "docker buildx构建多平台镜像"
-date: 2020-05-22 17:55:42 +0800
+date: 2020-05-22 17:55:42
 categories: [docker, buildx]
 tags: [docker, linux, arm]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "go mod使用私有库"
-date: 2020-06-04 14:11:12 +0800
+date: 2020-06-04 14:11:12
 categories: [编程语言,golang]
 tags: [编程语言,golang, git, docker]
 excerpt_separator: <!--more-->

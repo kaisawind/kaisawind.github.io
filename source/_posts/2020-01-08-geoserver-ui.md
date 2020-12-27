@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "geoserver基本UI界面介绍"
-date: 2020-01-08 11:25:00 +0800
+date: 2020-01-08 11:25:00
 categories: [map]
 tags: [linux,map,docker]
 excerpt_separator: <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "个人博客终于搭建完了"
-date: 2019-2-6 18:27:08 +0800
+date: 2019-2-6 18:27:08
 categories: [other]
 excerpt_separator: <!--more-->
 ---

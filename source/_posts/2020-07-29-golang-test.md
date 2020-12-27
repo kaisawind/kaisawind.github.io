@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "go test skip some test"
-date: 2020-07-29 14:18:12 +0800
+date: 2020-07-29 14:18:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "nginx代理基本配置"
-date: 2020-12-14 10:46:23 +0800
+date: 2020-12-14 10:46:23
 categories: [nginx]
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "cgo中void*的参数实现"
-date: 2020-10-24 18:52:12 +0800
+date: 2020-10-24 18:52:12
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

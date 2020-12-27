@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "golang设计模式(单例模式)"
-date: 2019-12-10 15:58:00  +0800
+date: 2019-12-10 15:58:00 
 categories: [编程语言,golang]
 excerpt_separator: <!--more-->
 ---

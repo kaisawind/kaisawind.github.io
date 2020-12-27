@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "k8s批量更新deployment"
-date: 2020-04-14 18:52:16 +0800
+date: 2020-04-14 18:52:16
 categories: [k8s]
 tags: [k8s, linux]
 excerpt_separator: <!--more-->
