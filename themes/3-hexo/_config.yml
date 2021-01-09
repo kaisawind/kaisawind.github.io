@@ -146,7 +146,7 @@ article_list:
 # 文章列表背景图
 article_bg_img:
   on: false # 是否开启
-  src: https://www.kaisawind.com/img/background.png
+  src: https://kaisawind.gitee.io/img/background.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
 # 列表样式
