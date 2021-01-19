@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linux防火墙开放端口"
-date: 2020-1-18 10:53:48
+date: 2021-1-18 10:53:48
 categories: [linux]
 excerpt_separator: <!--more-->
 ---
