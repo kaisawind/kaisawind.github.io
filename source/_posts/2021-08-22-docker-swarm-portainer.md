@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker Swarm UI配置"
 date: 2021-08-22 19:31:46
-categories: [docker,docker]
+categories: [docker,swarm]
 excerpt_separator: <!--more-->
 ---
 Docker Swarm UI配置
