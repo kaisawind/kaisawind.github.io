@@ -37,7 +37,8 @@ baidusitemap:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link: 
+  enable: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -87,6 +88,17 @@ feed:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: 3-hexo
+
+# MathJax 数学公式支持
+mathjax:
+  on: true #是否启用
+  per_page: true # 若只渲染单个页面，此选项设为false，页面内加入 mathjax: true
+
+# Katex数学公式(allpost设置为false时只有头部设置math:true的文章才开启)
+katex:
+  enable: true
+  allpost: true
+  copy_tex: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
