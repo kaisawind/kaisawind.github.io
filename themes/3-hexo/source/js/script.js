@@ -316,6 +316,7 @@ $searchInput.on("change", function (e) {
 });
 /*根据搜索条件，过滤文章列表*/
 function inputChange() {
+    var i;
     setTimeout(function () {
         $searchInput.focus()
     }, 50)
@@ -338,7 +339,7 @@ function inputChange() {
     }
     var categories = $(".nav-left ul li>div.active").data('rel').split('<--->')
     // 处理特殊字符
-    for (var i = 0; i < categories.length; i++) {
+    for (i = 0; i < categories.length; i++) {
         categories[i] =  categories[i]
           .replace(/(?=\/|\\|#|\(|\)|\[|\]|\.)/g, "\\")
     }
@@ -346,6 +347,9 @@ function inputChange() {
     var searchType = '';
     var containType = '';
     $('#no-item-tips').hide()
+    $(".nav-right nav a .post-title .search-keyword").each(function () {
+        $(this).parent().html($(this).parent().attr('title'))
+    })
     if (val === "") {
         $(".nav-right nav a").css("display", "none");
         $(".nav-right nav a." + activeTitle).css("display", "block");
@@ -366,8 +370,34 @@ function inputChange() {
     } else {
         searchType = '标题'
         containType = '包含'
-        $(".nav-right nav a").css("display", "none");
+        // $(".nav-right nav a").css("display", "none");
         $(".nav-right nav").find("a." + activeTitle + ":"+ ($('#search-panel > .icon-case-sensitive').hasClass('active') ? 'containsSensitive' : 'contains') + "('" + val + "')").css("display", "block");
+        $(".nav-right nav a").each(function () {
+            var title = $(this).children('.post-title').attr('title');
+            for (i = 0; i < categories.length; i++) {
+                if (!$(this).hasClass(categories[i])) {
+                    $(this).css('display', 'none').children('.post-title').html(title)
+                    return true;
+                }
+            }
+
+            var caseSensitive = $('#search-panel > .icon-case-sensitive').hasClass('active');
+            var vals = (caseSensitive ? val : val.toUpperCase()).split('');
+            var inputReg = new RegExp(vals.join('[\\s\\S]*'));
+            if (inputReg.test(caseSensitive ? title : title.toUpperCase())) {
+                // 给匹配到的字符添加高亮
+                var nowPos = 0;
+                var titleHtml = title.split('')
+                var titleCase = (caseSensitive ? title : title.toUpperCase()).split('')
+                for (i = 0; i < vals.length; i++) {
+                    nowPos = titleCase.indexOf(vals[i], nowPos)
+                    titleHtml[nowPos] = ['<span class="search-keyword">', titleHtml[nowPos], '</span>'].join('')
+                }
+                $(this).css('display', 'block').children('.post-title').html(titleHtml.join(''))
+            } else {
+                $(this).css('display', 'none').children('.post-title').html(title)
+            }
+        })
     }
     if (val !== '') {
         $('#default-panel .icon-search').addClass('active')
@@ -406,26 +436,30 @@ container.hover(function () {
 })
 var clickScrollTo = false
 function syncOutline(_this) {
-    if ($('#outline-list .toc-link[href!="#"]').length > 0 && !clickScrollTo) {
-        var activeIndex = null
-        $('#outline-list .toc-link[href!="#"]').each(function (index) {
-            var diff = _this.scrollTop - $(_this).find(decodeURI($(this).attr('href')))[0].offsetTop
-            if (diff < -20) {
-                activeIndex = index === 0 ? 0 : index - 1
-                return false
+    try{
+        if ($('#outline-list .toc-link[href!="#"]').length > 0 && !clickScrollTo) {
+            var activeIndex = null
+            $('#outline-list .toc-link[href!="#"]').each(function (index) {
+                var diff = _this.scrollTop - $(_this).find(decodeURI($(this).attr('href')))[0].offsetTop
+                if (diff < -20) {
+                    activeIndex = index === 0 ? 0 : index - 1
+                    return false
+                }
+            })
+            $('#outline-list .toc-link[href!="#"].active').removeClass('active')
+            if (activeIndex === null) {
+                $('#outline-list .toc-link[href!="#"]:last').addClass('active')
+            } else {
+                $('#outline-list .toc-link[href!="#"]:eq(' + activeIndex + ')').addClass('active')
             }
-        })
-        $('#outline-list .toc-link[href!="#"].active').removeClass('active')
-        if (activeIndex === null) {
-            $('#outline-list .toc-link[href!="#"]:last').addClass('active')
-        } else {
-            $('#outline-list .toc-link[href!="#"]:eq(' + activeIndex + ')').addClass('active')
+            if ($('#outline-list .toc-link[href!="#"].active')[0].offsetTop - $outlineList.height() - $outlineList[0].scrollTop > -80) {
+                $outlineList.scrollTop($('#outline-list .toc-link[href!="#"].active')[0].offsetTop + 80 - $outlineList.height())
+            } else if ($('#outline-list .toc-link[href!="#"].active')[0].offsetTop < $outlineList[0].scrollTop) {
+                $outlineList.scrollTop($('#outline-list .toc-link[href!="#"].active')[0].offsetTop)
+            }
         }
-        if ($('#outline-list .toc-link[href!="#"].active')[0].offsetTop - $outlineList.height() - $outlineList[0].scrollTop > -80) {
-            $outlineList.scrollTop($('#outline-list .toc-link[href!="#"].active')[0].offsetTop + 80 - $outlineList.height())
-        } else if ($('#outline-list .toc-link[href!="#"].active')[0].offsetTop < $outlineList[0].scrollTop) {
-            $outlineList.scrollTop($('#outline-list .toc-link[href!="#"].active')[0].offsetTop)
-        }
+    } catch (e) {
+        console.error('同步toc位置失败！', e)
     }
 }
 
@@ -636,6 +670,23 @@ function bind() {
     //初始化文章toc
     // $(".post-toc-content").html($("#post .pjax article .toc-ref .toc").clone());
     $("#outline-list").html($("#post .pjax article .toc-ref .toc").clone());
+    $("#outline-list .toc").append($("#post .pjax article .toc-ref > .toc-item").clone());
+    // 修复自定义标题的关联关系
+    $("#outline-list").find('.toc-link').each(function() {
+        if (!$(this).attr('href')) {
+            var tocText = $(this).text().replaceAll(/[^a-zA-Z0-9]/g, '')
+            $(this).attr('href', '#' + encodeURIComponent(tocText))
+            $(this).parent().attr('class').split(' ').forEach(function (item) {
+                if (item.indexOf('toc-level-') !== -1) {
+                    $('#post').find('h'+item.replace('toc-level-', '')).each(function () {
+                        if ($(this).text().replaceAll(/[^a-zA-Z0-9]/g, '') === tocText) {
+                            $(this).attr('id', encodeURIComponent(tocText))
+                        }
+                    })
+                }
+            })
+        }
+    })
     syncOutline(container[0])
     //绑定文章toc的滚动事件
     $("a[href^='#']").click(function () {
@@ -765,7 +816,7 @@ function copy (text) {
         window.getSelection().removeAllRanges();
         isSuccess = true
     } catch (e) {
-        console.log('复制失败')
+        console.error('复制失败')
     }
 
     if (text) {
