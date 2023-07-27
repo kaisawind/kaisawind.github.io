@@ -7,7 +7,7 @@
   },
   "scripts": {
     "server": "hexo server",
-    "build": "hexo build",
+    "build": "hexo generate",
     "theme:pull": "git subtree pull --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master",
     "theme:push": "git subtree push --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master"
   },
