@@ -22,6 +22,10 @@ https://devices.ubuntu-touch.io/installer/
 正常ubuntu touch可以直接使用UBports Installer安装，
 但是MeizuPro5不支持直接使用UBports Installer安装。
 
+本文涉及到的文件
+
+https://drive.google.com/drive/folders/15JWmjyai7fiZ6PqSdTxQ2IBPhnceqAS9?usp=sharing
+
 
 ### 1. 国内版切国际版
 
