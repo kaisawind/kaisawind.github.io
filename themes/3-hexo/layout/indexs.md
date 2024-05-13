@@ -1,6 +1,6 @@
 # Why Blog
 
-国内请访问gitee镜像站 https://kaisawind.gitee.io/
+国内请访问gitee镜像站 https://kaisawind.gitee.io/(gitee已下线pages/20240510)
 
 ## git印象
 <iframe src="https://www.gitmemory.com/kaisawind" width="700px" height="500px" frameborder="0" scrolling="no">
