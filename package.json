@@ -12,7 +12,7 @@
     "theme:push": "git subtree push --prefix=themes/3-hexo https://github.com/kaisawind/hexo-theme-3-hexo.git master"
   },
   "dependencies": {
-    "hexo": "^6.2.0",
+    "hexo": "^6.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
