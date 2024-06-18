@@ -4,6 +4,7 @@ title = "kaisawind's blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+copyright = "©2016-2024 kaisawind"
 
 [params]
   author = "kaisawind"
@@ -23,6 +24,7 @@ pygmentsUseClasses = true
   location = "China"
   enableGitalk = true
   math = true
+  govNumber = "辽ICP备2021007608号"
 
   [params.gitalk]
     clientID = "5ad30d9152deb6a8836a"
@@ -52,7 +54,7 @@ lastmod = true
 
 [services]
   [services.googleAnalytics]
-    ID = "UA-123456-789"
+    ID = "UA-133305125-1"
 
 [taxonomies]
   tag = 'tags'
