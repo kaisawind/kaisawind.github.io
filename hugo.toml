@@ -1,3 +1,67 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://www.kaisawind.com/"
+languageCode = "zh-cn"
+title = "kaisawind's blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "kaisawind"
+  description = "Based developer and systems engineer. Golang, NodeJS, Rust, React, VUE, Docker, Linux, Arm, k8s @iotxfoundry"
+  github = "kaisawind"
+  facebook = "kaisawind"
+  twitter = "kaisawind"
+  email = "wind.kaisa@gmail.com"
+  url = "https://www.kaisawind.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github-mark.png"
+  avatar = "/images/avatar.gif"
+  headerIcon = "/images/header.png"
+  location = "China"
+  enableGitalk = true
+  math = true
+
+  [params.gitalk]
+    clientID = "5ad30d9152deb6a8836a"
+    clientSecret = "813f5b956c3fbe9bad8bba5117209d3a0d97db31"
+    repo = "kaisawind.github.io"
+    owner = "kaisawind"
+    admin = "kaisawind"
+    id = "kaisawind"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/kaisawind"
+  [[params.links]]
+    title = "Link2"
+    href = "https://www.kaisawind.com"
+    icon = "https://www.kaisawind.com/images/header.png"
+
+lastmod = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
+
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
