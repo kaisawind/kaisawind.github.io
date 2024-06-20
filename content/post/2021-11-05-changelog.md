@@ -3,7 +3,7 @@ layout: post
 title: "CHANGELOG自动生成"
 date: 2021-11-05 16:09:16
 categories: [linux]
-tags: [linux， git]
+tags: [linux, git]
 excerpt_separator: <!--more-->
 ---
 CHANGELOG 自动生成
