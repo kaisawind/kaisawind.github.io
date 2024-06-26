@@ -10,7 +10,7 @@ Hugo is a static site generator written in Go, optimized for speed and designed 
 ### Create a new post
 
 ``` bash
-$ hugo new site quickstart
+$ hugo new content content/post/$(date '+%YY-%mm-%dd')-python-struct.md
 ```
 
 More info: [Writing](https://gohugo.io/getting-started/quick-start/)
