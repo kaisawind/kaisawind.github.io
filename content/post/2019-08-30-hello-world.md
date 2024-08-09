@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-date: 2019-8-30 11:40:53
+date: 2019-08-30 11:40:53
 categories: [other]
 tags: [other]
 excerpt_separator: <!--more-->

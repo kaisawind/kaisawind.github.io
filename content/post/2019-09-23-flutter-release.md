@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "release编译:flutter android编译release版"
-date: 2019-9-23 10:28:16
+date: 2019-09-23 10:28:16
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

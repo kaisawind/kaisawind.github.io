@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "StatefulWidget:flutter有状态组件"
-date: 2019-9-20 15:27:40
+date: 2019-09-20 15:27:40
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

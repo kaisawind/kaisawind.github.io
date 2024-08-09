@@ -1,51 +1,87 @@
 baseURL = "https://www.kaisawind.com/"
 languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
 title = "kaisawind's blog"
-theme = "github-style"
+theme = "hugo.386"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+preserveTaxonomyNames = true
 copyright = "©2016-2024 kaisawind"
 
 [params]
-  author = "kaisawind"
-  description = "Based developer and systems engineer. Golang, NodeJS, Rust, React, VUE, Docker, Linux, Arm, k8s @iotxfoundry"
-  github = "kaisawind"
-  facebook = "kaisawind"
-  twitter = "kaisawind"
-  email = "wind.kaisa@gmail.com"
-  url = "https://www.kaisawind.com"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😀"
-  favicon = "/images/github-mark.png"
-  avatar = "/images/avatar.gif"
-  headerIcon = "/images/header.png"
-  location = "China"
-  enableGitalk = true
-  math = true
-  govNumber = "辽ICP备2021007608号"
+  # The name to display as main title in the home page
+  mainpagetitle = "Kaisawind Blog"
+  # The subtitle to display under the title in the home page
+  mainpagesubtitle = "https://github.com/kaisawind"
+  # The description of your website. It will be displayed in the home page
+  mainpagedesc = "Based developer and systems engineer. Golang, NodeJS, Rust, React, VUE, Docker, Linux, Arm, k8s @iotxfoundry"
 
-  [params.gitalk]
-    clientID = "5ad30d9152deb6a8836a"
-    clientSecret = "813f5b956c3fbe9bad8bba5117209d3a0d97db31"
-    repo = "kaisawind.github.io"
-    owner = "kaisawind"
-    admin = "kaisawind"
-    id = "kaisawind"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
+  # The name to display in the copyright section in the footer
+  copyrightname = "辽ICP备2021007608号©2016-2024 kaisawind"
+  # The url to use as link in the copyright name in the footer. Leave empty to use none.
+  copyrighturl = "https://beian.miit.gov.cn/"
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/kaisawind"
-  [[params.links]]
-    title = "Link2"
-    href = "https://www.kaisawind.com"
-    icon = "https://www.kaisawind.com/images/header.png"
+  # Show the "built on Hugo" disclaimer
+  showhugo = false
+
+  # Urls for social networks
+  github = "https://github.com/kaisawind"
+  facebook = "https://facebook.com/kaisawind"
+  twitter = "https://x.com/kaisawind"
+
+  # Enables or disables the loading animations. false activates them. Default is false.
+  loadfastload = false
+
+  # Sets the speed for the page loading effect. Default is 1.0.
+  loadspeedfactor = 1.0
+
+  # Enables or disables the second flyby cursor. Default is false.
+  loadonepass = false
+
+[params.copyright]
+    name = ""
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    url = "https://github.com/kaisawin"
+
+    # Text to go before copyright information
+    prefix = "[辽ICP备2021007608号](https://beian.miit.gov.cn/d)"
+
+    # Text to go between copyright and hugo disclaimer (if enabled)
+    suffix = "kaisawind"
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "关于"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "所有帖子"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
 
 lastmod = true
 
@@ -55,9 +91,14 @@ lastmod = true
 [services]
   [services.googleAnalytics]
     ID = "UA-133305125-1"
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
 
 [taxonomies]
-  tag = 'tags'
+category = "categories"
+tag = 'tags'
 
 [markup]
   [markup.goldmark]

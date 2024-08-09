@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "StatelessWidget:flutter无状态组件"
-date: 2019-9-21 14:47:47
+date: 2019-09-21 14:47:47
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
