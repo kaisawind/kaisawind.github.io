@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 java版本管理
 <!--more-->
 
-编译器
+命令
 ```bash
 sudo apt-get update
 sudo apt-get install openjdk-11-jdk
