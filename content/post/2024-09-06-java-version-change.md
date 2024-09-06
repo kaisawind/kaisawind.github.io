@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "java版本管理"
-date: 2024-08-08 14:20:54
+date: 2024-09-06 13:03:54
 categories: [编程语言,java,ubuntu]
 tags: [java,ubuntu]
 excerpt_separator: <!--more-->
