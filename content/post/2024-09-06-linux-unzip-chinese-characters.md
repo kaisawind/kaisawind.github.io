@@ -4,6 +4,7 @@ title:  "linux下unzip解压中文乱码"
 date: 2024-09-06 18:28:54
 categories: [编程语言,ubuntu]
 tags: [ubuntu]
+draft: false
 excerpt_separator: <!--more-->
 ---
 linux下unzip解压中文乱码

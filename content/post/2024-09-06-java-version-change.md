@@ -4,6 +4,7 @@ title:  "java版本管理"
 date: 2024-09-06 13:03:54
 categories: [编程语言,java,ubuntu]
 tags: [java,ubuntu]
+draft: false
 excerpt_separator: <!--more-->
 ---
 java版本管理
