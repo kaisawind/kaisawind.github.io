@@ -12,9 +12,7 @@ ubuntu删除娱乐软件
 
 命令
 ```bash
-sudo apt-get purge unity-webapps-common
-sudo apt-get purge thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese gnome-sudoku transmission-common gnome-orca webbrowser-app landscape-client-ui-install
-sudo apt-get purge deja-dup
+sudo apt-get purge thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese gnome-sudoku transmission-common gnome-orca deja-dup
 sudo apt-get remove --purge "libreoffice*"
 sudo apt-get clean
 sudo apt-get autoremove
