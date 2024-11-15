@@ -51,6 +51,7 @@ default      docker
 
 启用binfmt转换
 ```bash
+docker run --privileged --rm tonistiigi/binfmt --install all
 docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 ```
 
