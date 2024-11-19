@@ -13,9 +13,6 @@ docker本地创建多平台镜像-ce
 
 ```bash
 #!/bin/bash
-set -e
-
-#!/bin/bash
 
 set -e
 
@@ -34,9 +31,9 @@ docker pull --platform=linux/amd64 ${image}:${version} && \
 docker tag ${image}:${version} ${registry}/${image}:${version}-amd64 && \
 docker push ${registry}/${image}:${version}-amd64
 
-docker manifest create --insecure ${registry}/${image}:${version} ${registry}/${image}:${version}-arm64 ${registry}/${image}:${version}-amd64
-docker manifest annotate --insecure ${registry}/${image}:${version} ${registry}/${image}:${version}-arm64 --os linux --arch arm64
-docker manifest annotate --insecure ${registry}/${image}:${version} ${registry}/${image}:${version}-amd64 --os linux --arch amd64
+docker manifest create --insecure -a ${registry}/${image}:${version} ${registry}/${image}:${version}-arm64 ${registry}/${image}:${version}-amd64
+docker manifest annotate ${registry}/${image}:${version} ${registry}/${image}:${version}-arm64 --os linux --arch arm64
+docker manifest annotate ${registry}/${image}:${version} ${registry}/${image}:${version}-amd64 --os linux --arch amd64
 
-docker manifest --insecure push -p ${registry}/${image}:${version} 
+docker manifest push --insecure -p ${registry}/${image}:${version} 
 ```
