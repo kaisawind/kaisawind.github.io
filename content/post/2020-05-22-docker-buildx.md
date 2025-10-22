@@ -37,8 +37,13 @@ buildx配置文件
 
 创建buildx句柄
 ```bash
-docker buildx create --use --name mybuilder --config=/home/${USER}/.docker/buildx/config.toml
+docker buildx create --use --name mybuilder \
+  --config=/home/${USER}/.docker/buildx/config.toml \
+  --driver docker-container \
+  --driver-opt image=192.168.1.118:5000/moby/buildkit:buildx-stable-1
 ```
+* 配置使用本地的buildkit：`--driver-opt image=192.168.1.118:5000/moby/buildkit:buildx-stable-1`
+
 查看支持的平台
 ```bash
 #$ docker buildx ls

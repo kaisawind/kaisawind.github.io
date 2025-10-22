@@ -9,6 +9,12 @@ excerpt_separator: <!--more-->
 Docker registry清理
 <!--more-->
 
+v1和v2版本
 ```bash
 bin/registry garbage-collect --delete-untagged /etc/docker/registry/config.yml
+```
+
+v3版本
+```bash
+bin/registry garbage-collect --delete-untagged /etc/distribution/config.yml
 ```
