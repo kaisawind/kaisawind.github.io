@@ -10,6 +10,7 @@ excerpt_separator: <!--more-->
 
 nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其他处理。结合k8s的插件`k8s-device-plugin`能够在k8s集群中使用GPU。
 
+> **重要更新**: nvidia-docker已废弃，现在推荐使用 **NVIDIA Container Toolkit**。本文档保留作为历史参考。最新安装方法请参考：https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 <!--more-->
 
 > **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
@@ -58,11 +59,41 @@ nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其
 
 下载安装时注意Cudn的版本
 
-## 2. 安装Nvidia Docker
+## 2. 安装NVIDIA Container Toolkit（新方法）
 
-nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其他处理。结合k8s的插件[k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin)能够在k8s集群中使用GPU。
+### 2.1 配置package repository
 
-[nvidia-docker](https://github.com/NVIDIA/nvidia-docker)官方安装说明 https://github.com/NVIDIA/nvidia-docker。
+```bash
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+  sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+  sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+
+### 2.2 安装NVIDIA Container Toolkit
+
+```bash
+sudo apt-get update
+sudo apt-get install -y nvidia-container-toolkit
+```
+
+### 2.3 配置Docker
+
+```bash
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+```
+
+### 2.4 验证安装
+
+```bash
+sudo docker run --rm --runtime=nvidia --gpus all nvidia/cuda:11.6.2-base-ubuntu20.04 nvidia-smi
+```
+
+## 3. 旧方法：安装Nvidia Docker（已废弃）
+
+以下是nvidia-docker的旧安装方法，仅供历史参考。新安装请使用上面的NVIDIA Container Toolkit方法。
 
 ### 配置nvidia docker仓库
 
