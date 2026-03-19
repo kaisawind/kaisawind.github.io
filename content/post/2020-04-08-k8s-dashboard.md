@@ -8,6 +8,8 @@ tags: [linux]
 excerpt_separator: <!--more-->
 ---
 k8s的dashboard使用非安全端口
+
+> **注意**: 从Kubernetes 1.22开始，Ingress API版本已更新。推荐使用`networking.k8s.io/v1`替代`extensions/v1beta1`。
 <!--more-->
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -60,6 +62,8 @@ spec:
 
 ## 4. ingress修改
 
+### 4.1 旧版本（Kubernetes < 1.22）
+
 ```yaml
 kind: Ingress
 apiVersion: extensions/v1beta1
@@ -83,4 +87,34 @@ spec:
             backend:
               serviceName: kubernetes-dashboard
               servicePort: 80
+```
+
+### 4.2 新版本（Kubernetes >= 1.22）
+
+```yaml
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: dashboard-ingress
+  namespace: kubernetes-dashboard
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: '0'
+    nginx.ingress.kubernetes.io/proxy-read-timeout: '600'
+    nginx.ingress.kubernetes.io/proxy-redirect-from: /
+    nginx.ingress.kubernetes.io/proxy-redirect-to: $location_path/
+    nginx.ingress.kubernetes.io/proxy-send-timeout: '600'
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/service-upstream: 'true'
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /dashboard
+            pathType: Prefix
+            backend:
+              service:
+                name: kubernetes-dashboard
+                port:
+                  number: 80
 ```
