@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Rust的docker编译环境
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 ## 1. 概述
 Rust中官方docker镜像只有debian镜像支持跨平台，alpine镜像不支持跨平台。
 

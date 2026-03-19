@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 github docker packages使用
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 ## 1. 概述
 github推出了packages管理，到目前为止包含以下几种：
 docker,Maven,NuGet,npm,RubyGems

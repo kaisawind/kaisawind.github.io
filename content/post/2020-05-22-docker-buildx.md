@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 docker buildx构建多平台镜像
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 ## 1. 概述
 Docker Buildx是docker19.03的`experimental feature`，使用时需要打开`experimental`
 

@@ -11,7 +11,7 @@ go test skip some test
 <!--more-->
 
 Its easy to skip single test or many test,just add `+build`
-```golang
+```go
 // +build all
 
 package tags
@@ -21,7 +21,7 @@ import "testing"
 func TestA(t *testing.T) {}
 ```
 
-```golang
+```go
 // +build all feature2
 
 package tags

@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 docker gui(portainer)
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 官网安装链接:
 https://www.portainer.io/installation/
 

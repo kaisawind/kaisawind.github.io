@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 docker buildx构建多平台compose镜像
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 ## 1. 概述
 由于单片机使用的是arm架构，但是官方的compose镜像不支持arm,所以需要自己构建compose镜像
 
