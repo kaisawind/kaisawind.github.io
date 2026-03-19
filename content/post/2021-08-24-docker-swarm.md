@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Docker Swarm部署服务
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 ## 1. 概述
 Docker Swarm使用docker stack部署服务， 配置文件使用的是docker compose的配置文件，但是又不能完全使用compose文件。
 
