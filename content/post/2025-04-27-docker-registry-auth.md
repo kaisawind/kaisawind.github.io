@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 docker仓库添加认证
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 命令
 ```bash
 sudo apt-get install apache2-utils # htpasswd

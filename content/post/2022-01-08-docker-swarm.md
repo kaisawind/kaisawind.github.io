@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Docker Swarm Replicas模式下区分Task
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 docker swarm 可以通过go模板配置服务参数，通过这些参数区分服务。
 
 |变量|描述|示例|

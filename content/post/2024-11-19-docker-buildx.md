@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 docker本地创建多平台镜像-ce
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 
 ```bash
 #!/bin/bash

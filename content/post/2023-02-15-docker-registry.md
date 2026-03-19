@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Docker registry清理
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 v1和v2版本
 ```bash
 bin/registry garbage-collect --delete-untagged /etc/docker/registry/config.yml

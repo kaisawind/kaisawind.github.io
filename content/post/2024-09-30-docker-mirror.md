@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 ubuntu镜像源安装docker-ce
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 命令
 ```bash
 sudo groupadd docker

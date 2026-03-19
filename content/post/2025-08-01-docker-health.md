@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 docker添加health检查
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 Dockerfile中添加
 ```bash
 HEALTHCHECK --interval=5m --timeout=3s \

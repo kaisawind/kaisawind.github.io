@@ -13,7 +13,7 @@ golang cgo pinner的使用
 
 go 1.21添加了Pinner用于控制cgo中go内存的同步
 * 注意： 只能用于控制go中的指针，不能控制c指针。pin时需要将c指针排除。
-```golang
+```go
 func (o *IEC61850) ControlCancelWithShortAddr(sAddr string, ptSelectValue *DataAttributeData, ptParam *ControlParameters) (err error) {
 	var pin runtime.Pinner
 	defer pin.Unpin()

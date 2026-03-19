@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 docker仓库间多架构镜像同步
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 使用skopeo工具进行镜像同步
 ```bash
 sudo apt-get install -y skopeo

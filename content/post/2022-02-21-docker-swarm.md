@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Docker Stack删除无用的服务
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 当某个服务从yaml文件中删除之后，更新stack时并不会删除无用的服务，需要加`--prune`参数进行删除
 
 ```bash
