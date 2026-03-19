@@ -2,6 +2,7 @@
 layout: post
 title:  "docker compose删除孤立的服务"
 date: 2020-05-11 09:15:42
+lastmod: 2026-03-19
 categories: [docker,compose]
 tags: [docker]
 excerpt_separator: <!--more-->

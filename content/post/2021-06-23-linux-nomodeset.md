@@ -2,6 +2,7 @@
 layout: post
 title:  "ubuntu配置nomodeset"
 date: 2021-06-23 18:15:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

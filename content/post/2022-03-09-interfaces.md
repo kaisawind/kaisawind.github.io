@@ -2,6 +2,7 @@
 layout: post
 title:  "linux的interfaces网络配置"
 date: 2022-03-09 13:03:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

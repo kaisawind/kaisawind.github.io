@@ -2,6 +2,7 @@
 layout: post
 title:  "nginx代理基本配置"
 date: 2020-12-14 10:46:23
+lastmod: 2026-03-19
 categories: [nginx]
 tags: [linux]
 excerpt_separator: <!--more-->

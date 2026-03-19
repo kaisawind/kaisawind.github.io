@@ -2,6 +2,7 @@
 layout: post
 title: "NXP iMax系统修改静态IP"
 date: 2021-11-27 11:46:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

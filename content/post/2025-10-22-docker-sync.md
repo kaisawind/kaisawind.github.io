@@ -2,6 +2,7 @@
 layout: post
 title:  "docker仓库间多架构镜像同步"
 date: 2025-10-22 19:24:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false

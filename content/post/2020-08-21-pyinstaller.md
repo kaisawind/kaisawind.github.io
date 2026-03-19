@@ -2,6 +2,7 @@
 layout: post
 title:  "pyinstaller打包工具"
 date: 2020-08-21 14:59:04
+lastmod: 2026-03-19
 categories: [编程语言,python]
 tags: [python]
 excerpt_separator: <!--more-->

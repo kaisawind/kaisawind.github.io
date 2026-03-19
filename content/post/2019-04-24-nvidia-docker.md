@@ -2,6 +2,7 @@
 layout: post
 title:  "Nvidia Docker安装"
 date: 2019-04-24 16:57:44
+lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->

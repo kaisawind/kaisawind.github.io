@@ -2,6 +2,7 @@
 layout: post
 title:  "查找两个txt中其中一个没有另一个的行"
 date: 2025-04-25 10:55:00
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false

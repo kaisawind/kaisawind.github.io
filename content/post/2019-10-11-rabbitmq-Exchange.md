@@ -2,6 +2,7 @@
 layout: post
 title:  "rabbitmq exchange理解"
 date: 2019-10-11 16:20:05
+lastmod: 2026-03-19
 categories: [消息队列,rabbitmq]
 tags: [tools]
 excerpt_separator: <!--more-->

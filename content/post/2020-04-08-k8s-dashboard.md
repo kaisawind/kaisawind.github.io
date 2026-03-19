@@ -2,6 +2,7 @@
 layout: post
 title:  "k8s的dashboard使用非安全端口"
 date: 2020-04-08 10:34:16
+lastmod: 2026-03-19
 categories: [k8s]
 tags: [linux]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "alpine镜像编译libmodbus"
 date: 2024-10-12 10:02:54
+lastmod: 2026-03-19
 categories: [linux,alpine]
 tags: [alpine]
 draft: false

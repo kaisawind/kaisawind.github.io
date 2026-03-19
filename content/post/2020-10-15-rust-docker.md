@@ -2,6 +2,7 @@
 layout: post
 title:  "Rust的alpine的docker编译环境"
 date: 2020-10-15 11:30:04
+lastmod: 2026-03-19
 categories: [编程语言,rust]
 tags: [rust]
 excerpt_separator: <!--more-->

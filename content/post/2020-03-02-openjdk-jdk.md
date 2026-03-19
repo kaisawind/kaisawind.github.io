@@ -2,6 +2,7 @@
 layout: post
 title:  "OpenJDK与JDK比较"
 date: 2020-03-02 09:40:04
+lastmod: 2026-03-19
 categories: [编程语言,java]
 tags: [java]
 excerpt_separator: <!--more-->

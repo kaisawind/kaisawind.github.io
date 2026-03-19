@@ -2,6 +2,7 @@
 layout: post
 title: 'Linux Mv Files to Folder'
 date: 2024-06-21T16:38:55Z
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 draft: false

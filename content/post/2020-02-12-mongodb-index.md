@@ -2,6 +2,7 @@
 layout: post
 title:  "mongodb创建索引(index)"
 date: 2020-02-12 09:18:04
+lastmod: 2026-03-19
 categories: [数据库, mongodb]
 tags: [mongodb]
 excerpt_separator: <!--more-->

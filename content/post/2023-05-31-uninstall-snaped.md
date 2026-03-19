@@ -2,6 +2,7 @@
 layout: post
 title:  "ubuntu卸载snaped"
 date: 2023-05-31 20:44:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

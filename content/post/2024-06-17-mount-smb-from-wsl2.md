@@ -2,6 +2,7 @@
 layout: post
 title:  "Mount Windows Network Drives in WSL"
 date: 2024-06-17 23:22:42
+lastmod: 2026-03-19
 categories: [windows,wsl]
 tags: [windows]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "rabbitmq queue(队列)参数说明"
 date: 2019-10-12 09:44:17
+lastmod: 2026-03-19
 categories: [消息队列,rabbitmq]
 tags: [tools]
 excerpt_separator: <!--more-->

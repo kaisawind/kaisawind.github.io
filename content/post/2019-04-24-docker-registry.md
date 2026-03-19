@@ -2,6 +2,7 @@
 layout: post
 title:  "Docker Registry服务部署"
 date: 2019-04-24 17:19:43
+lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->

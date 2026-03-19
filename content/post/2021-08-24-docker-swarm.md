@@ -2,6 +2,7 @@
 layout: post
 title:  "Docker Swarm部署服务"
 date: 2021-08-24 11:31:46
+lastmod: 2026-03-19
 categories: [docker,swarm]
 tags: [docker]
 excerpt_separator: <!--more-->

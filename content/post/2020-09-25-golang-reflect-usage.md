@@ -2,6 +2,7 @@
 layout: post
 title:  "golang反射的使用"
 date: 2020-09-25 09:45:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

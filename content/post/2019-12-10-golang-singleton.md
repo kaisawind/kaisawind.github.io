@@ -2,6 +2,7 @@
 layout: post
 title:  "golang设计模式(单例模式)"
 date: 2019-12-10 15:58:00 
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

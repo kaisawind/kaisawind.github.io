@@ -2,6 +2,7 @@
 layout: post
 title:  "golang跨平台编译"
 date: 2022-04-08 10:31:54
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

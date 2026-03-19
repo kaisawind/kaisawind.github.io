@@ -2,6 +2,7 @@
 layout: post
 title:  "go mod使用私有库"
 date: 2020-06-04 14:11:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

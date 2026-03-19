@@ -2,6 +2,7 @@
 layout: post
 title:  "docker hub自动构建多平台镜像(aarch64/arm64)"
 date: 2020-05-22 15:08:42
+lastmod: 2026-03-19
 categories: [docker, docker]
 tags: [docker]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "mongodb回收磁盘空间"
 date: 2024-01-12 17:57:51
+lastmod: 2026-03-19
 categories: [数据库, mongodb]
 tags: [mongodb]
 excerpt_separator: <!--more-->

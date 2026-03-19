@@ -2,6 +2,7 @@
 layout: post
 title:  "Ubuntu 修改内核"
 date: 2023-11-04 23:22:55
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [linux]
 excerpt_separator: <!--more-->

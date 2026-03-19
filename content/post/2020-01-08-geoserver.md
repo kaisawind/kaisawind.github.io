@@ -2,6 +2,7 @@
 layout: post
 title: "docker运行geoserver服务"
 date: 2020-01-08 10:59:00
+lastmod: 2026-03-19
 categories: [map]
 tags: [tools]
 excerpt_separator: <!--more-->

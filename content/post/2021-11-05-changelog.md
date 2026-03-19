@@ -2,6 +2,7 @@
 layout: post
 title: "CHANGELOG自动生成"
 date: 2021-11-05 16:09:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux, git]
 excerpt_separator: <!--more-->

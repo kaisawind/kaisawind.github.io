@@ -2,6 +2,7 @@
 layout: post
 title:  "批量移动与父文件夹相同的子文件夹"
 date: 2025-04-25 10:12:00
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false

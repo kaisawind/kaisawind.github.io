@@ -2,6 +2,7 @@
 layout: post
 title:  "flutter路由2.0"
 date: 2020-12-01 09:43:12
+lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

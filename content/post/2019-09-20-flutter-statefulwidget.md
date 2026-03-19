@@ -2,6 +2,7 @@
 layout: post
 title:  "StatefulWidget:flutter有状态组件"
 date: 2019-09-20 15:27:40
+lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title: 'python项目文件夹结构'
 date: 2024-06-26T14:12:13+08:00
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 draft: false

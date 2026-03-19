@@ -2,6 +2,7 @@
 layout: post
 title:  "使用docker部署dgraph"
 date: 2020-08-08 00:57:04
+lastmod: 2026-03-19
 categories: [数据库, dgraph]
 tags: [dgraph]
 excerpt_separator: <!--more-->

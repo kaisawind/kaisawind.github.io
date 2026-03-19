@@ -2,6 +2,7 @@
 layout: post
 title: 'yarn出现There appears to be trouble with your network connection. Retrying...'
 date: 2024-07-30 14:36:55
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 draft: false

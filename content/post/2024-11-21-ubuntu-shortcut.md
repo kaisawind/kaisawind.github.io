@@ -2,6 +2,7 @@
 layout: post
 title:  "ubuntu创建桌面快捷方式"
 date: 2024-11-21 11:44:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false

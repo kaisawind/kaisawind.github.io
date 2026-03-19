@@ -2,6 +2,7 @@
 layout: post
 title:  "go test skip some test"
 date: 2020-07-29 14:18:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

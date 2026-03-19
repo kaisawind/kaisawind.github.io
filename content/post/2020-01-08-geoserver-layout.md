@@ -2,6 +2,7 @@
 layout: post
 title: "geoserver多级别显示解决方法"
 date: 2020-01-08 12:09:00
+lastmod: 2026-03-19
 categories: [map]
 tags: [tools]
 excerpt_separator: <!--more-->

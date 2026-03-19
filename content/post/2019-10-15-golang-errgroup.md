@@ -2,6 +2,7 @@
 layout: post
 title:  "golang errGroup使用"
 date: 2019-10-16 14:24:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

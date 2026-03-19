@@ -2,6 +2,7 @@
 layout: post
 title:  "docker gui(portainer)"
 date: 2020-08-21 13:24:42
+lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->

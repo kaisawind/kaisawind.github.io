@@ -2,6 +2,7 @@
 layout: post
 title:  "Docker Swarm Replicas模式下区分Task"
 date: 2022-01-08 19:03:46
+lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "ubuntu删除娱乐软件"
 date: 2024-09-30 16:31:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false

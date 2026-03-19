@@ -2,6 +2,7 @@
 layout: post
 title:  "ffmpeg录屏转rtmp"
 date: 2025-01-11 10:55:00
+lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false

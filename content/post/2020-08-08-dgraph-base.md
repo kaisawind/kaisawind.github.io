@@ -2,6 +2,7 @@
 layout: post
 title:  "dgraph增删改查"
 date: 2020-08-08 00:32:04
+lastmod: 2026-03-19
 categories: [数据库, dgraph]
 tags: [dgraph]
 excerpt_separator: <!--more-->

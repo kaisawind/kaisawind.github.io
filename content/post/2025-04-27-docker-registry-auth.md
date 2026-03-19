@@ -2,6 +2,7 @@
 layout: post
 title:  "docker仓库添加认证"
 date: 2025-04-27 16:49:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false

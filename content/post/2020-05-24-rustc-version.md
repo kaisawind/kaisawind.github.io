@@ -2,6 +2,7 @@
 layout: post
 title:  "rustc版本查看"
 date: 2020-05-24 15:28:42
+lastmod: 2026-03-19
 categories: [编程语言,rust]
 tags: [rust]
 excerpt_separator: <!--more-->

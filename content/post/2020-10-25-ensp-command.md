@@ -2,6 +2,7 @@
 layout: post
 title:  "华为ensp常用命令"
 date: 2020-10-25 22:32:04
+lastmod: 2026-03-19
 categories: [网络工程]
 tags: [tools]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "MeizuPro5安装ubuntu touch"
 date: 2023-09-07 10:13:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

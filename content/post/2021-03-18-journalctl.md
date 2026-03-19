@@ -2,6 +2,7 @@
 layout: post
 title:  "journalctl日志清理"
 date: 2021-03-18 10:13:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

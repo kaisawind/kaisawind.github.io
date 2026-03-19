@@ -2,6 +2,7 @@
 layout: post
 title:  "linux网络检测命令"
 date: 2020-04-13 11:10:16
+lastmod: 2026-03-19
 categories: [linux,linux]
 tags: [linux]
 excerpt_separator: <!--more-->

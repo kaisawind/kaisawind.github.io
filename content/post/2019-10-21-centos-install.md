@@ -2,6 +2,7 @@
 layout: post
 title:  "CentOS系统初期配置"
 date: 2019-10-21 15:02:04
+lastmod: 2026-03-19
 categories: [linux,centos]
 tags: [linux]
 excerpt_separator: <!--more-->

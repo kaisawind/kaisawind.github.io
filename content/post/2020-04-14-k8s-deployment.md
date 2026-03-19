@@ -2,6 +2,7 @@
 layout: post
 title:  "k8s批量更新deployment"
 date: 2020-04-14 18:52:16
+lastmod: 2026-03-19
 categories: [k8s]
 tags: [linux]
 excerpt_separator: <!--more-->

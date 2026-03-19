@@ -2,6 +2,7 @@
 layout: post
 title:  "docker buildx构建多平台镜像"
 date: 2020-05-22 17:55:42
+lastmod: 2026-03-19
 categories: [docker, buildx]
 tags: [docker]
 excerpt_separator: <!--more-->

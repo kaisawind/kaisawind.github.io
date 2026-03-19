@@ -2,6 +2,7 @@
 layout: post
 title:  "k8s添加dashboard web ui"
 date: 2019-11-28 12:05:54
+lastmod: 2026-03-19
 categories: [k8s]
 tags: [linux]
 excerpt_separator: <!--more-->

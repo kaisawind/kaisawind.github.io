@@ -2,6 +2,7 @@
 layout: post
 title:  "cgo中callback函数的实现"
 date: 2020-10-24 18:25:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

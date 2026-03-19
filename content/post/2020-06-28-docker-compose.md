@@ -2,6 +2,7 @@
 layout: post
 title:  "docker buildx构建多平台compose镜像"
 date: 2020-06-28 17:55:42
+lastmod: 2026-03-19
 categories: [docker, compose]
 tags: [docker]
 excerpt_separator: <!--more-->

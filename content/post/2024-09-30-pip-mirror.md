@@ -2,6 +2,7 @@
 layout: post
 title:  "python中的pip镜像源设置"
 date: 2024-09-30 16:44:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,python]
 tags: [ubuntu,python]
 draft: false

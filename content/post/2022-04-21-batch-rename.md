@@ -2,6 +2,7 @@
 layout: post
 title:  "linux批量重命名文件"
 date: 2022-04-21 20:00:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "ffmpeg在linux上编译windows版本"
 date: 2021-03-18 16:51:37
+lastmod: 2026-03-19
 categories: [FFmpeg]
 tags: [linux]
 excerpt_separator: <!--more-->

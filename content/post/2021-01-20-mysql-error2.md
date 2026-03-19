@@ -2,6 +2,7 @@
 layout: post
 title:  "[Warning] World-writable config file '/etc/mysql/mysql.conf.d/mysqld.cnf' is ignored."
 date: 2021-01-20 11:08:06
+lastmod: 2026-03-19
 categories: [数据库, mysql]
 tags: [mysql]
 excerpt_separator: <!--more-->

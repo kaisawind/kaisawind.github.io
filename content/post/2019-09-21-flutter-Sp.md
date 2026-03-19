@@ -2,6 +2,7 @@
 layout: post
 title:  "shared_preferences:flutter数据存储"
 date: 2019-09-21 20:49:46
+lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "manjaro中tensorflow2支持gpu"
 date: 2021-06-24 11:05:16
+lastmod: 2026-03-19
 categories: [linux, manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->

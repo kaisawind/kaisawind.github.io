@@ -2,6 +2,7 @@
 layout: post
 title:  "linux使用qemu安装arm64开发环境"
 date: 2020-02-11 10:01:04
+lastmod: 2026-03-19
 categories: [虚拟化,qemu]
 tags: [linux]
 excerpt_separator: <!--more-->

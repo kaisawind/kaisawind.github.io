@@ -2,6 +2,7 @@
 layout: post
 title:  "typescript assert enum"
 date: 2023-03-06 14:08:54
+lastmod: 2026-03-19
 categories: [编程语言,typescript]
 tags: [typescript]
 excerpt_separator: <!--more-->

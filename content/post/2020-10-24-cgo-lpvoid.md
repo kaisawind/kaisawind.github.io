@@ -2,6 +2,7 @@
 layout: post
 title:  "cgo中void*的参数实现"
 date: 2020-10-24 18:52:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

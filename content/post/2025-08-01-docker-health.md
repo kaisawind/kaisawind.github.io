@@ -2,6 +2,7 @@
 layout: post
 title:  "docker添加health检查"
 date: 2025-08-01 10:49:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false

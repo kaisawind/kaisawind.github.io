@@ -2,6 +2,7 @@
 layout: post
 title:  "golang cgo出参"
 date: 2022-02-17 10:59:54
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

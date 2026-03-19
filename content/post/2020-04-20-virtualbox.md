@@ -2,6 +2,7 @@
 layout: post
 title:  "virtualbox使用物理磁盘"
 date: 2020-04-20 21:31:16
+lastmod: 2026-03-19
 categories: [虚拟化,virtualbox]
 tags: [linux]
 excerpt_separator: <!--more-->

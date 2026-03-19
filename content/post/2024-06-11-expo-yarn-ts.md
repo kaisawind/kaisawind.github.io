@@ -2,6 +2,7 @@
 layout: post
 title:  "yarn创建基于typescript的expo app"
 date: 2024-06-11 16:13:42
+lastmod: 2026-03-19
 categories: [前端,react]
 tags: [react]
 excerpt_separator: <!--more-->

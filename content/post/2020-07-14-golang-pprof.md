@@ -2,6 +2,7 @@
 layout: post
 title:  "golang pprof简单使用"
 date: 2020-07-14 14:05:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: post
 title:  "ubuntu镜像源安装docker-ce"
 date: 2024-09-30 16:41:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false

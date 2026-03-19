@@ -2,6 +2,7 @@
 layout: post
 title:  "Docker Stack删除无用的服务"
 date: 2022-02-21 14:31:46
+lastmod: 2026-03-19
 categories: [docker,swarm]
 tags: [docker]
 excerpt_separator: <!--more-->

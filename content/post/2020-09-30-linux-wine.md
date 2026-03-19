@@ -2,6 +2,7 @@
 layout: post
 title:  "linux使用wine运行游戏"
 date: 2020-09-30 09:40:16
+lastmod: 2026-03-19
 categories: [linux,manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->

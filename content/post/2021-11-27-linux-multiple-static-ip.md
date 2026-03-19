@@ -2,6 +2,7 @@
 layout: post
 title: "linux单网卡设置多IP"
 date: 2021-11-27 12:00:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

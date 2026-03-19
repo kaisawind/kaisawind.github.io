@@ -2,6 +2,7 @@
 layout: post
 title:  "go的websocket应用"
 date: 2021-06-22 09:49:12
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

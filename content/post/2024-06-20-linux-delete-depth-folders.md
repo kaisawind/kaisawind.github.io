@@ -2,6 +2,7 @@
 layout: post
 title:  "linux查找所有深度文件夹中文件并删除"
 date: 2024-06-20 23:47:42
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 draft: false

@@ -2,6 +2,7 @@
 layout: post
 title:  "linux查看上次登录用户"
 date: 2021-02-02 10:10:16
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

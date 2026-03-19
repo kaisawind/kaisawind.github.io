@@ -2,6 +2,7 @@
 layout: post
 title:  "删除Mac OSX生成的缩略图文件"
 date: 2021-01-19 13:35:16
+lastmod: 2026-03-19
 categories: [linux,manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->

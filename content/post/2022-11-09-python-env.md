@@ -2,6 +2,7 @@
 layout: post
 title:  "ModuleNotFoundError: No module named 'distutils.cmd'"
 date: 2022-11-09 14:08:54
+lastmod: 2026-03-19
 categories: [编程语言,python]
 tags: [python]
 excerpt_separator: <!--more-->

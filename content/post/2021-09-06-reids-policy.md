@@ -2,6 +2,7 @@
 layout: post
 title:  "redis数据删除策略"
 date: 2021-09-06 11:03:28
+lastmod: 2026-03-19
 categories: [数据库, redis]
 tags: [redis]
 excerpt_separator: <!--more-->

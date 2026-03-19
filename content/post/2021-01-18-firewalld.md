@@ -2,6 +2,7 @@
 layout: post
 title:  "linux防火墙开放端口"
 date: 2021-01-18 10:53:48
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

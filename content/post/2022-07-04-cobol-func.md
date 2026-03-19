@@ -2,6 +2,7 @@
 layout: post
 title:  "GNUCobol语言函数"
 date: 2022-07-04 15:12:54
+lastmod: 2026-03-19
 categories: [编程语言,cobol]
 tags: [cobol, linux]
 excerpt_separator: <!--more-->

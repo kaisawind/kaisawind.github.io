@@ -2,6 +2,7 @@
 layout: post
 title:  "容器运行docker-compose"
 date: 2020-06-29 15:31:42
+lastmod: 2026-03-19
 categories: [docker, compose]
 tags: [docker]
 excerpt_separator: <!--more-->

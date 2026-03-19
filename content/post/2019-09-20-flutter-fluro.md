@@ -2,6 +2,7 @@
 layout: post
 title:  "fluro:flutter路由"
 date: 2019-09-20 15:35:50
+lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->

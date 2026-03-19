@@ -2,6 +2,7 @@
 layout: post
 title:  "virtualbox与HyperV冲突"
 date: 2019-03-05 11:09:04
+lastmod: 2026-03-19
 categories: [虚拟化,virtualbox]
 tags: [windows]
 excerpt_separator: <!--more-->

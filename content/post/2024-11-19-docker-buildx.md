@@ -2,6 +2,7 @@
 layout: post
 title:  "docker本地创建多平台镜像"
 date: 2024-11-19 12:49:54
+lastmod: 2026-03-19
 categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false

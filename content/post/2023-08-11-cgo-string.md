@@ -2,6 +2,7 @@
 layout: post
 title:  "golang cgo字符串转换"
 date: 2023-08-11 10:28:59
+lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->

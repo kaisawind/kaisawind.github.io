@@ -2,6 +2,7 @@
 layout: post
 title:  "TreeSitter基本语法"
 date: 2022-07-08 10:47:54
+lastmod: 2026-03-19
 categories: [编程语言,js]
 tags: [tools]
 excerpt_separator: <!--more-->

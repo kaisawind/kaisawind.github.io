@@ -2,6 +2,7 @@
 layout: post
 title:  "manjaro快捷键截图"
 date: 2020-11-12 10:35:16
+lastmod: 2026-03-19
 categories: [linux,manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->

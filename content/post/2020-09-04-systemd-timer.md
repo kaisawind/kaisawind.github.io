@@ -2,6 +2,7 @@
 layout: post
 title:  "systemd配置timer(定时)"
 date: 2020-09-04 10:55:04
+lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->

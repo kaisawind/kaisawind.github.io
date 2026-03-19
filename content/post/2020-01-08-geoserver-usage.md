@@ -2,6 +2,7 @@
 layout: post
 title: "geoserver基本使用方法介绍"
 date: 2020-01-08 11:44:00
+lastmod: 2026-03-19
 categories: [map]
 tags: [tools]
 excerpt_separator: <!--more-->

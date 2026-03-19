@@ -2,6 +2,7 @@
 layout: post
 title:  "react-redux的connect函数"
 date: 2021-01-09 15:26:42
+lastmod: 2026-03-19
 categories: [前端, react]
 tags: [react]
 excerpt_separator: <!--more-->
