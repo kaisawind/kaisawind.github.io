@@ -34,7 +34,7 @@ ffmpeg编译时configure选项(Options)
 
 ## help
 
-```shell
+```bash
 $ ./configure --help
 Usage: configure [options]
 Options: [defaults in brackets after descriptions]

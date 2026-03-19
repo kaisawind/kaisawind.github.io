@@ -12,6 +12,9 @@ nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其
 
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -41,7 +44,7 @@ nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其
 
     例如： cuda_10.1.105_418.39_linux.run
 
-    ```shell
+    ```bash
     sudo sh cuda_10.1.105_418.39_linux.run
     ```
 
@@ -65,14 +68,14 @@ nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其
 
 * 追加nvidia docker官方的gpg密钥
 
-    ```shell
+    ```bash
     curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
     sudo apt-key add -
     ```
 
 * 追加nvidia docker仓库
 
-    ```shell
+    ```bash
     distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
     curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
     sudo tee /etc/apt/sources.list.d/nvidia-docker.list
@@ -82,20 +85,20 @@ nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其
 
 * 更新`apt`包目录
 
-    ```shell
+    ```bash
     sudo apt-get update
     ```
 
 * 安装最新版本的nvidia docker
 
-    ```shell
+    ```bash
     sudo apt-get install -y nvidia-docker2
     sudo pkill -SIGHUP dockerd
     ```
 
 * 验证安装
 
-    ```shell
+    ```bash
     docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
     ```
 

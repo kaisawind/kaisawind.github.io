@@ -90,12 +90,12 @@ Flutter中文网： [发布Android版APP](https://flutterchina.club/android-rele
 ### 3.1 创建key
 
 Mac/Linux
-```shell
+```bash
 keytool -genkey -v -keystore ~/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key
 ```
 
 Windows
-```shell
+```bash
 keytool -genkey -v -keystore c:/Users/USER_NAME/key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
 ```
 
@@ -263,7 +263,7 @@ android {
 
 
 apk拆分
-```shell
+```bash
 flutter build apk --split-per-abi
 ```
 
@@ -274,7 +274,7 @@ output
 
 
 多合一版本
-```shell
+```bash
 flutter build apk
 ```
 

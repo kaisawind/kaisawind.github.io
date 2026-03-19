@@ -18,7 +18,7 @@ https://github.com/FedoraQt/MediaWriter
 
 * 启用网卡
 
-    ```shell
+    ```bash
     cd /etc/sysconfig/network-scripts/ifcfg-enp1s0
     ```
 
@@ -28,19 +28,19 @@ https://github.com/FedoraQt/MediaWriter
 
 * 安装网络工具包
 
-    ```shell
+    ```bash
     sudo yum install net-tools
     ```
 
 * 查看IP地址，远程shell连接
 
-    ```shell
+    ```bash
     ifconfig -a
     ```
 
 ## 3. `wget`
 
-```shell
+```bash
 sudo yum install wget
 ```
 
@@ -48,12 +48,12 @@ sudo yum install wget
 
 https://www.kaisawind.com/2019/02/21/2019-02-22-linux/
 
-```shell
+```bash
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 ```
 
 ## 5. 更新软件
 
-```shell
+```bash
 sudo yum update
 ```

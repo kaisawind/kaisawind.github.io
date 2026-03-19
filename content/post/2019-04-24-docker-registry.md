@@ -13,6 +13,9 @@ Registry是一个无状态，高度可扩展的服务端应用程序，可存储
 
 <!--more-->
 
+> **提示**: Docker已推出新的命令结构，建议使用 `docker image` 和 `docker container` 子命令。
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -40,19 +43,19 @@ Registry是一个无状态，高度可扩展的服务端应用程序，可存储
 
 应为镜像会占用比较大的磁盘空间，所以Registry文件夹需要放到大磁盘分区中。
 
-```shell
+```bash
 mkdir ~/DockerRegistry
 ```
 
 ### 2.2 下载registry镜像到本地
 
-```shell
+```bash
 docker pull registry
 ```
 
 ### 2.3 启动registry镜像
 
-```shell
+```bash
 docker run -d -p 5000:5000 \
   --restart=always \
   --name registry \
@@ -87,7 +90,7 @@ docker run -d -p 5000:5000 \
 
 重启docker
 
-```shell
+```bash
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
@@ -96,18 +99,18 @@ sudo systemctl restart docker
 
 重命名镜像
 
-```shell
+```bash
 docker 127.0.0.1:5000/adax/adax-webui 192.168.1.192:5000/adax/adax-webui
 ```
 
 上传镜像到私有镜像库
 
-```shell
+```bash
 docker push 192.168.1.192:5000/adax/adax-webui
 ```
 
 ### 2.6 从私有镜像库下载镜像
 
-```shell
+```bash
 docker pull 192.168.1.192:5000/adax/adax-webui
 ```
