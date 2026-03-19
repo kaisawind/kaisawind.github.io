@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux使用wine运行游戏
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ## 1. 概述
 wine是linux系统中运行windows软件的程序。
 

@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 mongodb创建索引(index)
 <!--more-->
 
+> **提示**: MongoDB已发布7.x版本，支持时序集合、变更流等新特性。
+
+
 mongodb官方go driver
 
 ```go

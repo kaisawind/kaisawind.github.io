@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 mongodb备份和恢复
 <!--more-->
 
+> **提示**: MongoDB已发布7.x版本，支持时序集合、变更流等新特性。
+
+
 
 ### 备份
 ```bash

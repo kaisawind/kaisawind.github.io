@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 ubuntu创建桌面快捷方式
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 
 创建文件`物联网云平台.desktop`到`～/Desktop/`下
 ```bash

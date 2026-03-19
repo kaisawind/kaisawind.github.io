@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux网络检测命令
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ## 1. ifconfig
 检查当前环境配置的IP信息
 ```bash

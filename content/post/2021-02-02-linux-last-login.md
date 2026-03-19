@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux查看上次登录用户
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 * /var/log/wtmp
 记录每个用户的登录次数和持续时间等信息
 

@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 意外停电后，重启系统，不能自动挂载
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ```bash
 sudo fsck /dev/xxxxx
 

@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux批量重命名文件
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ```bash
 ls | cat -n | while read n f; do mv "$f" `printf "%012d.jpg" $n`; done
 ```

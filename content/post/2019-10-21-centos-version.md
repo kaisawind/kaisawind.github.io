@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 CentOS各个版本说明
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 阿里云镜像地址:
 
 https://mirrors.aliyun.com/centos/

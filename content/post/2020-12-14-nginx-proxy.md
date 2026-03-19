@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 nginx代理基本配置
 <!--more-->
 
+> **提示**: Nginx已支持HTTP/3和QUIC协议。
+
+
 
 ## 1. 不同后缀区别
 ### 1.1. proxy_pass带后缀`/`

@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Ubuntu 修改内核
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ### 脚本
 
 ```bash

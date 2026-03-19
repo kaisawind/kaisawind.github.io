@@ -9,6 +9,9 @@ excerpt_separator: <!--more-->
 ---
 [Warning] World-writable config file '/etc/mysql/mysql.conf.d/mysqld.cnf' is ignored.
 <!--more-->
+
+> **注意**: MySQL 8.0已成为主流版本，本文档可能基于旧版本编写。
+
 mysql版本8.0.18，添加mysql.cnf一直无效，使用命令行连接mysql.cnf是报警告
 `[Warning] World-writable config file '/etc/mysql/mysql.conf.d/mysqld.cnf' is ignored.`
 

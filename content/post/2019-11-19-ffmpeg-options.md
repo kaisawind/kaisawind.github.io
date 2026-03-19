@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 ffmpeg编译时configure选项(Options)
 <!--more-->
 
+> **提示**: FFmpeg版本更新较快，建议使用最新稳定版。
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->

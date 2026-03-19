@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux的ssh策略
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 策略文件位置
 * `/etc/ssh/sshd_config`
 

@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 linux下unzip解压中文乱码
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 命令
 ```bash
 unzip -O gbk xxxx.zip -d xxxx

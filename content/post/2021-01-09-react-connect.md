@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 react-redux的connect函数
 <!--more-->
 
+> **提示**: React 18引入了并发特性，建议使用函数组件和Hooks。
+
+
 ## 1. 概述
 
 connect方法将state和dispatch绑定到Connect组件的参数上，然后Connect组件将你当前的App组件封装起来，使得App组件可以通过props获取到父组件Connect传递的state和props。

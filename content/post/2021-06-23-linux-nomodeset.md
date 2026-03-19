@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 ubuntu配置nomodeset.
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ## 1. 概述
 当ubuntu安装在没有独立显卡的机器上时，或者核显的版本太高，就会导致安装之后无法进入桌面。此时需要设置nomodeset.
 

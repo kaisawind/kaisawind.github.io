@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux 单网卡设置多 IP
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 `/lib/systemd/network/10-eth0.network`IP 配置路径
 
 ```bash

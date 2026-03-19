@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux的interfaces网络配置
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 /etc/network/interfaces
 ```bash
 # cat /etc/network/interfaces 

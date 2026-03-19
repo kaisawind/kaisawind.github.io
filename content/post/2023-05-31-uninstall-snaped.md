@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 ubuntu卸载snaped
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ```bash
 snap list
 sudo snap remove chromium snap-store 

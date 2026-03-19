@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 StatefulWidget:flutter有状态组件
 <!--more-->
 
+> **注意**: Flutter版本更新频繁，API可能有变化。
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->

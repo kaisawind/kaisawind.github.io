@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 Rust语言Derive说明
 <!--more-->
 
+> **提示**: Rust每6周发布一个新版本，建议使用`rustup`保持最新。
+
+
 ## 1. 概述
 编译器可以通过`#[derive(*****)]`为某些特性提供基本的实现。
 

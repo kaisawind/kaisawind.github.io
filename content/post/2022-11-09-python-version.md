@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 ubuntu安装不同版本python
 <!--more-->
 
+> **提示**: Python 3.12已发布，建议使用Python 3.8+版本。
+
+
 ```bash
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa

@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 python项目文件夹结构
 <!--more-->
 
+> **提示**: Python 3.12已发布，建议使用Python 3.8+版本。
+
+
 ## 1. 通用结构
 
 ```bash

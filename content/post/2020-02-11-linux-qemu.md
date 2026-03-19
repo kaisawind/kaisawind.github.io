@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux使用qemu安装arm64开发环境
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 ## 1. 概述
 
 linux下搭建qemu开发环境要比windows简单,通过命令行就可以简单的进行安装。

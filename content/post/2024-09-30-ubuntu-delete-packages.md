@@ -11,6 +11,9 @@ excerpt_separator: <!--more-->
 ubuntu删除娱乐软件
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 命令
 ```bash
 sudo apt-get purge thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese gnome-sudoku transmission-common gnome-orca deja-dup

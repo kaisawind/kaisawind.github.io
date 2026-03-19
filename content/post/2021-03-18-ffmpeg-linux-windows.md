@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 ffmpeg在linux上编译windows版本
 <!--more-->
 
+> **提示**: FFmpeg版本更新较快，建议使用最新稳定版。
+
+
 ## 1. 概要
 
 编译机系统是manjaro

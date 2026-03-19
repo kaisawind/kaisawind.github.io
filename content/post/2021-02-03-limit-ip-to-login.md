@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 linux限制用户ssh登录
 <!--more-->
 
+> **提示**: Linux发行版更新较快，命令可能因版本不同而有差异。
+
+
 * /etc/hosts.deny
 sshd限制登录策略
 

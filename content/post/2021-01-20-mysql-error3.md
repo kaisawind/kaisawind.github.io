@@ -9,6 +9,9 @@ excerpt_separator: <!--more-->
 ---
 Mysql group by this is incompatible with sql_mode=only_full_group_by
 <!--more-->
+
+> **注意**: MySQL 8.0已成为主流版本，本文档可能基于旧版本编写。
+
 mysql版本8.0.18，使用客户端查询数据时报错
 `Mysql group by this is incompatible with sql_mode=only_full_group_by.`
 
