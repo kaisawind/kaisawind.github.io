@@ -76,7 +76,7 @@ jobs:
           echo "Public directory size: $(du -sh ./public | cut -f1)"
           echo ""
           echo "Top 10 largest files:"
-          find ./public -type f -exec du -h {} + | sort -rh | head -10
+          find ./public -type f -exec du -h {} + | sort -rh 2>/dev/null | head -10 || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
