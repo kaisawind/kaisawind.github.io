@@ -7,6 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 preserveTaxonomyNames = true
 copyright = "©2016-2024 kaisawind"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   # The name to display as main title in the home page
@@ -70,11 +71,6 @@ copyright = "©2016-2024 kaisawind"
     disabled = false
     simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
   [privacy.instagram]
     disabled = false
     simple = true
@@ -91,10 +87,6 @@ lastmod = true
 [services]
   [services.googleAnalytics]
     ID = "UA-133305125-1"
-  [services.instagram]
-    disableInlineCSS = true
-  [services.twitter]
-    disableInlineCSS = true
 
 [taxonomies]
 category = "categories"
