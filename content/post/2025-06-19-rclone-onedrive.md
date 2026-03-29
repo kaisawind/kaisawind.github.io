@@ -7,6 +7,8 @@ categories: [linux]
 tags: [linux]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "rclone建立远程连接"
 ---
 rclone建立远程连接
 <!--more-->

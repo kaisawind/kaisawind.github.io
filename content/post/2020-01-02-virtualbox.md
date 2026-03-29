@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [虚拟化,virtualbox]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "virtualbox虚拟机命令行安装增强功能"
 ---
 virtualbox虚拟机命令行安装增强功能
 <!--more-->

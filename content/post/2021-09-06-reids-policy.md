@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, redis]
 tags: [redis]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "redis数据删除策略"
 ---
 redis数据删除策略
 <!--more-->

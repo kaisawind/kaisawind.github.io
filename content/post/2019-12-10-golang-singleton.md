@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "golang设计模式(单例模式)"
 ---
 golang设计模式(单例模式)
 <!--more-->

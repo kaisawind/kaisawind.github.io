@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Mqtt使用tls证书"
 ---
 Mqtt使用tls证书
 <!--more-->

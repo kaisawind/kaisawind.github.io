@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [前端, react]
 tags: [react]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "react-redux的connect函数"
 ---
 react-redux的connect函数
 <!--more-->

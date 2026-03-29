@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [nginx]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "nginx代理基本配置"
 ---
 nginx代理基本配置
 <!--more-->

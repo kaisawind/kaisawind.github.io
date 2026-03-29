@@ -7,6 +7,8 @@ categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker仓库间多架构镜像同步"
 ---
 docker仓库间多架构镜像同步
 <!--more-->

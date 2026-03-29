@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [FFmpeg]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ffmpeg在linux上编译windows版本"
 ---
 ffmpeg在linux上编译windows版本
 <!--more-->

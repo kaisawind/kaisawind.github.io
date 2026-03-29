@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "cgo中内置函数"
 ---
 cgo中内置函数
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "StatelessWidget:flutter无状态组件"
 ---
 StatelessWidget:flutter无状态组件
 <!--more-->

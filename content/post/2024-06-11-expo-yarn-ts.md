@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [前端,react]
 tags: [react]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "yarn创建基于typescript的expo app"
 ---
 yarn创建基于typescript的expo app
 <!--more-->

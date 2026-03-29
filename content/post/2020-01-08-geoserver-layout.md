@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [map]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "geoserver多级别显示解决方法"
 ---
 geoserver多级别显示解决方法
 <!--more-->

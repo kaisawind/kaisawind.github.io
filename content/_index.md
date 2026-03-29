@@ -1,5 +1,8 @@
 ---
-author: "Hugo Authors"
+title: "首页"
+description: "kaisawind的技术博客"
+date: "2024-08-09"
+author: "kaisawind"
 ---
 
 

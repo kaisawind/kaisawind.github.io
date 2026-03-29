@@ -7,6 +7,8 @@ categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ubuntu镜像源安装docker-ce"
 ---
 ubuntu镜像源安装docker-ce
 <!--more-->

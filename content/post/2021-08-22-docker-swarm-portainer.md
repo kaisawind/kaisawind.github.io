@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker,swarm]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Docker Swarm UI配置"
 ---
 Docker Swarm UI配置
 <!--more-->

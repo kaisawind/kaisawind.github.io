@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [windows,wsl]
 tags: [windows]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "在WSL2中挂载网络盘"
 ---
 在WSL2中挂载网络盘
 <!--more-->

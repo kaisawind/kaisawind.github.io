@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [消息队列,nsq]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "go-nsq简单教程"
 ---
 go-nsq简单教程
 <!--more-->

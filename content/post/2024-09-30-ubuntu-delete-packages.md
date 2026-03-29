@@ -7,6 +7,8 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ubuntu删除娱乐软件"
 ---
 ubuntu删除娱乐软件
 <!--more-->

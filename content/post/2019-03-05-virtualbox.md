@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [虚拟化,virtualbox]
 tags: [windows]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Raw-mode is unavailable courtesy of Hyper-V. (VERR_SUPDRV_NO_RAW_MODE_HYPER_V_ROOT)."
 ---
 
 Raw-mode is unavailable courtesy of Hyper-V. (VERR_SUPDRV_NO_RAW_MODE_HYPER_V_ROOT).

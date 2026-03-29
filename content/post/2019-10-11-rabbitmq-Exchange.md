@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [消息队列,rabbitmq]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "rabbitmq exchange理解"
 ---
 rabbitmq exchange理解
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,js]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "TreeSitter基本语法"
 ---
 TreeSitter基本语法
 <!--more-->

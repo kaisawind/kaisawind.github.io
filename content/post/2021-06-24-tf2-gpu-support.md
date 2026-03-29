@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux, manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "manjaro中tensorflow2支持gpu"
 ---
 manjaro中tensorflow2支持gpu
 <!--more-->

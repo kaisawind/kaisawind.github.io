@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [FFmpeg]
 tags: [windows]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ffmpeg编译时configure选项(Options)"
 ---
 ffmpeg编译时configure选项(Options)
 <!--more-->

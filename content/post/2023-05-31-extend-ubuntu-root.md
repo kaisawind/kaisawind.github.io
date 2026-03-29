@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more>-->
+author: "kaisawind"
+description: "扩展 Ubuntu Root 分区是云服务器和虚拟机管理的常见需求。本文介绍如何在在线状态下扩展 root 分区。"
 ---
 扩展 Ubuntu Root 分区是云服务器和虚拟机管理的常见需求。本文介绍如何在在线状态下扩展 root 分区。
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [git]
 tags: [git]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "github docker packages使用"
 ---
 github docker packages使用
 <!--more-->

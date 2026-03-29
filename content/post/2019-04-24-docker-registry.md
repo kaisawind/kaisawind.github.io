@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Registry是一个无状态，高度可扩展的服务端应用程序，可存储并允许您分发Docker镜像。"
 ---
 
 Registry是一个无状态，高度可扩展的服务端应用程序，可存储并允许您分发Docker镜像。

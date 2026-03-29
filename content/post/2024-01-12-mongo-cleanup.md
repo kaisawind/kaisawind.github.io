@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, mongodb]
 tags: [mongodb]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "mongodb回收磁盘空间"
 ---
 mongodb回收磁盘空间
 <!--more-->

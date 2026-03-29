@@ -7,6 +7,8 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "查找两个txt中其中一个没有另一个的行"
 ---
 查找两个txt中其中一个没有另一个的行
 <!--more-->

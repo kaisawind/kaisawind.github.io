@@ -7,6 +7,8 @@ categories: [linux]
 tags: [linux]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "openssl证书生成、验证和测试"
 ---
 openssl证书生成、验证和测试
 <!--more-->

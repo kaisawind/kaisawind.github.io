@@ -7,6 +7,8 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "批量移动与父文件夹相同的子文件夹"
 ---
 批量移动与父文件夹相同的子文件夹
 <!--more-->

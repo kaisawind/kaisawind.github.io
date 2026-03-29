@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [k8s]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "k8s的dashboard使用非安全端口"
 ---
 k8s的dashboard使用非安全端口
 

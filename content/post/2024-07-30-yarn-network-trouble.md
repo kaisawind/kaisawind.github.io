@@ -7,6 +7,8 @@ categories: [linux]
 tags: [linux]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "yarn出现There appears to be trouble with your network connection. Retrying..."
 ---
 yarn出现There appears to be trouble with your network connection. Retrying...
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, mysql]
 tags: [mysql]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "[Warning] World-writable config file '/etc/mysql/mysql.conf.d/mysqld.cnf' is ignored."
 ---
 [Warning] World-writable config file '/etc/mysql/mysql.conf.d/mysqld.cnf' is ignored.
 <!--more-->

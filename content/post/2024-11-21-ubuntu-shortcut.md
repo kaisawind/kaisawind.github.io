@@ -7,6 +7,8 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ubuntu创建桌面快捷方式"
 ---
 ubuntu创建桌面快捷方式
 <!--more-->

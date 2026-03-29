@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ssh登陆时一直提示修改密码"
 ---
 ssh登陆时一直提示修改密码
 <!--more-->

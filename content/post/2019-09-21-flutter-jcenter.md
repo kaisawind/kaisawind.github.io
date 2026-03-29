@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "jcenter访问失败(翻墙)"
 ---
 jcenter访问失败(翻墙)
 <!--more-->

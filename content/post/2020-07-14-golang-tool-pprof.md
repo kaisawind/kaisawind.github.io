@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "golang tool pprof简单使用"
 ---
 golang tool pprof简单使用
 <!--more-->

@@ -7,6 +7,8 @@ categories: [linux]
 tags: [linux]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "python项目文件夹结构"
 ---
 python项目文件夹结构
 <!--more-->

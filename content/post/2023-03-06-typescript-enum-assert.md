@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,typescript]
 tags: [typescript]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "typescript assert enum"
 ---
 typescript assert enum
 <!--more-->

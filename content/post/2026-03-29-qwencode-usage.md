@@ -6,6 +6,8 @@ lastmod: 2026-03-29
 categories: [工具, AI]
 tags: [AI, 工具]
 excerpt_separator: <!--more>-->
+author: "kaisawind"
+description: "QWencode 是一个轻量级但功能强大的 AI 辅助编程工具，专注于提高开发者的编码效率。本文详细介绍 QWencode 的安装、配置和使用方法。"
 ---
 QWencode 是一个轻量级但功能强大的 AI 辅助编程工具，专注于提高开发者的编码效率。本文详细介绍 QWencode 的安装、配置和使用方法。
 <!--more-->

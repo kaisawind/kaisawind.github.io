@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [ai]
 tags: [ai]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Stable Diffusion关键词"
 ---
 Stable Diffusion关键词
 <!--more-->

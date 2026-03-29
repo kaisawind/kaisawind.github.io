@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker, docker]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker hub自动编译多平台镜像"
 ---
 docker hub自动编译多平台镜像
 <!--more-->

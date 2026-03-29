@@ -7,6 +7,8 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "ffmpeg录屏转rtmp"
 ---
 ffmpeg录屏转rtmp
 <!--more-->

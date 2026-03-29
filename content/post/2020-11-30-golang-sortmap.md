@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Go 语言中的 Map 是无序的，本文介绍几种常见的 Map 排序方法，包括按键排序、按值排序以及转换为 JSON 时的排序。"
 ---
 Go 语言中的 Map 是无序的，本文介绍几种常见的 Map 排序方法，包括按键排序、按值排序以及转换为 JSON 时的排序。
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "cgo中void*的参数实现"
 ---
 cgo中void*的参数实现
 <!--more-->

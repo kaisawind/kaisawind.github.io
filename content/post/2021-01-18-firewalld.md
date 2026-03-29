@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux防火墙开放端口"
 ---
 linux防火墙开放端口
 <!--more-->

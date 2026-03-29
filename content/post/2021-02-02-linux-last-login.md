@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux查看上次登录用户"
 ---
 linux查看上次登录用户
 <!--more-->

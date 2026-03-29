@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,bat]
 tags: [bat]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "批处理kill隐藏的cmd窗口"
 ---
 批处理kill隐藏的cmd窗口
 <!--more-->

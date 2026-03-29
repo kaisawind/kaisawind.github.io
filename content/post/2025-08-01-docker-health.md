@@ -7,6 +7,8 @@ categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker添加health检查"
 ---
 docker添加health检查
 <!--more-->

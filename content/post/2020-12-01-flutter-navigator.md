@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "flutter开始支持web页面，同时基于以前的路由1.0在web上会有问题。"
 ---
 
 ## 1. 概述

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [网络工程]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "华为ensp常用命令"
 ---
 华为ensp常用命令
 <!--more-->

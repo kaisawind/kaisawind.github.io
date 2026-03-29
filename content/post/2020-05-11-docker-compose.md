@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker,compose]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker compose删除孤立的服务"
 ---
 docker compose删除孤立的服务
 <!--more-->

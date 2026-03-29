@@ -7,6 +7,8 @@ categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker仓库添加认证"
 ---
 docker仓库添加认证
 <!--more-->

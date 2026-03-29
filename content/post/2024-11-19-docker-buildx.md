@@ -7,6 +7,8 @@ categories: [linux,ubuntu,docker]
 tags: [ubuntu, docker]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Docker 本地创建多平台镜像，支持同时构建和部署适用于不同架构（如 amd64、arm64）的镜像。本文介绍如何使用 Docker manifest 创建多平台镜像。"
 ---
 Docker 本地创建多平台镜像，支持同时构建和部署适用于不同架构（如 amd64、arm64）的镜像。本文介绍如何使用 Docker manifest 创建多平台镜像。
 <!--more-->

@@ -7,6 +7,8 @@ categories: [编程语言,java,ubuntu]
 tags: [java,ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "java版本管理"
 ---
 java版本管理
 <!--more-->

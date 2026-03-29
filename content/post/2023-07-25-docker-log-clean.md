@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker,linux]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Docker容器日志清理"
 ---
 Docker容器日志清理
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Docker Swarm Replicas模式下区分Task"
 ---
 Docker Swarm Replicas模式下区分Task
 <!--more-->

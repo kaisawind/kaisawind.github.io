@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [k8s]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "k8s批量更新deployment"
 ---
 k8s批量更新deployment
 <!--more-->

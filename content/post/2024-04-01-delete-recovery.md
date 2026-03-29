@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [windows]
 tags: [windows]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Windows 10下删除450 MB的恢复分区"
 ---
 Windows 10下删除450 MB的恢复分区
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "NXP iMax 系统修改静态 IP"
 ---
 NXP iMax 系统修改静态 IP
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker, buildx]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker buildx构建多平台镜像"
 ---
 docker buildx构建多平台镜像
 <!--more-->

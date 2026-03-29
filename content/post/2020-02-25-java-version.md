@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,java]
 tags: [java]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "java各版本比较"
 ---
 java各版本比较
 <!--more-->

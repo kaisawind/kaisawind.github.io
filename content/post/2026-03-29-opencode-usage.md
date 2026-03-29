@@ -6,6 +6,8 @@ lastmod: 2026-03-29
 categories: [工具, AI]
 tags: [AI, 工具]
 excerpt_separator: <!--more>-->
+author: "kaisawind"
+description: "OpenCode 是一个强大的 AI 辅助编程工具，可以帮助开发者进行代码审查、Bug 修复、功能开发等任务。本文详细介绍 OpenCode 的安装、配置和使用方法。"
 ---
 OpenCode 是一个强大的 AI 辅助编程工具，可以帮助开发者进行代码审查、Bug 修复、功能开发等任务。本文详细介绍 OpenCode 的安装、配置和使用方法。
 <!--more-->

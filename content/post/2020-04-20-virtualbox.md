@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [虚拟化,virtualbox]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "virtualbox使用物理磁盘"
 ---
 virtualbox使用物理磁盘
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [虚拟化,qemu]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux使用qemu安装arm64开发环境"
 ---
 linux使用qemu安装arm64开发环境
 <!--more-->

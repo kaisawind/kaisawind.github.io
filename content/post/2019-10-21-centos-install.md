@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux,centos]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "U盘安装盘制作工具"
 ---
 
 ## 1. 安装系统

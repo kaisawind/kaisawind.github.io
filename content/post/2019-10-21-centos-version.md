@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux,centos]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "CentOS各个版本说明"
 ---
 
 CentOS各个版本说明

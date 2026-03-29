@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux的interfaces网络配置"
 ---
 linux的interfaces网络配置
 <!--more-->

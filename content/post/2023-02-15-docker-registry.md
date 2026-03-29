@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker,registry]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Docker registry清理"
 ---
 Docker registry清理
 <!--more-->

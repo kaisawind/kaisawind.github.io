@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,rust]
 tags: [rust]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Rust语言Derive说明"
 ---
 Rust语言Derive说明
 <!--more-->

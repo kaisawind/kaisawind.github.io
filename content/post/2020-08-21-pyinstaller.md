@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,python]
 tags: [python]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "pyinstaller打包工具"
 ---
 pyinstaller打包工具
 <!--more-->

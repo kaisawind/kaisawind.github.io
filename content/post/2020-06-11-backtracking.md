@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [算法]
 tags: [math]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "回溯法"
 ---
 回溯法
 <!--more-->

@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "systemctl配置文件写法"
 ---
 systemctl配置文件写法
 <!--more-->

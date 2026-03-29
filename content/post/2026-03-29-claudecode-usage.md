@@ -6,6 +6,8 @@ lastmod: 2026-03-29
 categories: [工具, AI]
 tags: [AI, 工具, Claude]
 excerpt_separator: <!--more>-->
+author: "kaisawind"
+description: "ClaudeCode 是 Anthropic 推出的 AI 辅助编程工具，可以帮助开发者进行代码分析、Bug 修复、功能开发等任务。本文详细介绍 ClaudeCode 的安装、配置和使用方法。"
 ---
 ClaudeCode 是 Anthropic 推出的 AI 辅助编程工具，可以帮助开发者进行代码分析、Bug 修复、功能开发等任务。本文详细介绍 ClaudeCode 的安装、配置和使用方法。
 <!--more-->

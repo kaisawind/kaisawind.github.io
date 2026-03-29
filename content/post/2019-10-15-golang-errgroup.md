@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [编程语言,golang]
 tags: [golang]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "golang errGroup使用与理解"
 ---
 golang errGroup使用与理解
 <!--more-->

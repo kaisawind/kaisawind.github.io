@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "StatefulWidget:flutter有状态组件"
 ---
 StatefulWidget:flutter有状态组件
 <!--more-->

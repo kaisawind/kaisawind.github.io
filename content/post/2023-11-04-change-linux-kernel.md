@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux,ubuntu]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Ubuntu 修改内核"
 ---
 Ubuntu 修改内核
 <!--more-->

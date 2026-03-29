@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [网络工程]
 tags: [network]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "计算机网络构成"
 ---
 计算机网络构成
 <!--more-->

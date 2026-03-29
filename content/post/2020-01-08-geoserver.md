@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [map]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "docker运行geoserver服务"
 ---
 docker运行geoserver服务
 <!--more-->

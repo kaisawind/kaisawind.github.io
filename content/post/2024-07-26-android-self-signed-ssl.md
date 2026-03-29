@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [android]
 tags: [android]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Android使用自认证证书的HTTPS"
 ---
 Android使用自认证证书的HTTPS
 <!--more-->

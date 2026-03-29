@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux,manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux使用wine运行游戏"
 ---
 linux使用wine运行游戏
 <!--more-->

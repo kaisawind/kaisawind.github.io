@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker, compose]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "容器运行docker-compose"
 ---
 容器运行docker-compose
 <!--more-->

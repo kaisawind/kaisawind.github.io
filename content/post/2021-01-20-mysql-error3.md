@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, mysql]
 tags: [mysql]
 excerpt_separator: <!--more>-->
+author: "kaisawind"
+description: "MySQL 8.0 默认启用 ONLY_FULL_GROUP_BY 模式，使用 GROUP BY 查询时可能会报错。本文介绍问题的原因和解决方法。"
 ---
 MySQL 8.0 默认启用 `ONLY_FULL_GROUP_BY` 模式，使用 GROUP BY 查询时可能会报错。本文介绍问题的原因和解决方法。
 <!--more-->

@@ -7,6 +7,8 @@ categories: [linux,ubuntu,python]
 tags: [ubuntu,python]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "python中的pip镜像源设置"
 ---
 python中的pip镜像源设置
 <!--more-->

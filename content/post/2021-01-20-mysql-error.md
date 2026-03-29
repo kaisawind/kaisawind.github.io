@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, mysql]
 tags: [mysql]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "MySQL 配置 sql_mode 时报错 unknown variable 'sql_mode=STRICT_TRANS_TABLES,....'.，本文介绍问题的原因和解决方法。"
 ---
 MySQL 配置 sql_mode 时报错 `unknown variable 'sql_mode=STRICT_TRANS_TABLES,....'.`，本文介绍问题的原因和解决方法。
 <!--more-->

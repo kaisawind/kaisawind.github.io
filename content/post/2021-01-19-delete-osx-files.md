@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux,manjaro]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "删除Mac OSX生成的缩略图文件"
 ---
 删除Mac OSX生成的缩略图文件
 <!--more-->

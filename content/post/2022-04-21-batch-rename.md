@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux批量重命名文件"
 ---
 linux批量重命名文件
 <!--more-->

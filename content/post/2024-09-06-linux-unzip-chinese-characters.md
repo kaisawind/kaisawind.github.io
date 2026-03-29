@@ -7,6 +7,8 @@ categories: [编程语言,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux下unzip解压中文乱码"
 ---
 linux下unzip解压中文乱码
 <!--more-->

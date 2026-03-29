@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "systemd配置docker-compose命令"
 ---
 systemd配置docker-compose命令
 <!--more-->

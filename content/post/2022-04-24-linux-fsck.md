@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [linux]
 tags: [linux]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "意外停电后，重启系统，不能自动挂载"
 ---
 意外停电后，重启系统，不能自动挂载
 <!--more-->

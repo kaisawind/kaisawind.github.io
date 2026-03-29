@@ -7,6 +7,8 @@ categories: [linux]
 tags: [linux]
 draft: false
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "linux通过find查找文件并移动到指定文件夹"
 ---
 linux通过find查找文件并移动到指定文件夹
 <!--more-->

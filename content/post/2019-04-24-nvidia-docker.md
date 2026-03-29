@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [docker]
 tags: [docker]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其他处理。结合k8s的插件k8s-device-plugin能够在k8s集群中使用GPU。"
 ---
 
 nvidia-docker是能够直接在容器中使用Nvidia GPU而不需要额外的其他处理。结合k8s的插件`k8s-device-plugin`能够在k8s集群中使用GPU。

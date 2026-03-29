@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [flutter]
 tags: [flutter]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "release编译:flutter android编译release版"
 ---
 release编译:flutter android编译release版
 <!--more-->

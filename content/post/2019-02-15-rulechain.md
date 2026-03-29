@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [other]
 tags: [tools]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "Rule Engine是一个易于使用的框架，用于构建基于事件的工作流。"
 ---
 
 ## 1.什么是ThingsBoard规则引擎？

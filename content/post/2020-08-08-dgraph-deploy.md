@@ -6,6 +6,8 @@ lastmod: 2026-03-19
 categories: [数据库, dgraph]
 tags: [dgraph]
 excerpt_separator: <!--more-->
+author: "kaisawind"
+description: "dgraph部署"
 ---
 dgraph部署
 <!--more-->
