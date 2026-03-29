@@ -32,38 +32,73 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.159.1
     steps:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup Hugo cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ runner.temp }}/hugo_cache
+            resources
+          key: hugo-${{ hashFiles('**/*.md', 'hugo.toml', 'hugo.lock') }}
+          restore-keys: |
+            hugo-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
+          TZ: Asia/Shanghai
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Verify build
+        run: |
+          echo "✓ Build completed successfully"
+          echo "Generated files: $(find ./public -type f | wc -l)"
+          echo "Public directory size: $(du -sh ./public | cut -f1)"
+          echo ""
+          echo "Top 10 largest files:"
+          find ./public -type f -exec du -h {} + | sort -rh | head -10
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
+      - name: Notify on build failure
+        if: failure()
+        run: |
+          echo "✗ Build failed!"
+          echo "Please check the Hugo logs above for error details."
+          echo ""
+          echo "Common issues:"
+          echo "  - Check for syntax errors in Markdown files"
+          echo "  - Verify hugo.toml configuration"
+          echo "  - Ensure all submodules are properly initialized"
 
   # Deployment job
   deploy:
@@ -75,4 +110,14 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+      - name: Notify on deployment success
+        if: success()
+        run: |
+          echo "✓ Deployment successful!"
+          echo "Page URL: ${{ steps.deployment.outputs.page_url }}"
+      - name: Notify on deployment failure
+        if: failure()
+        run: |
+          echo "✗ Deployment failed!"
+          echo "Please check the build logs for details."
