@@ -53,20 +53,12 @@ jobs:
           path: |
             ${{ runner.temp }}/hugo_cache
             resources
-          key: hugo-${{ hashFiles('**/*.md', 'hugo.toml', 'hugo.lock') }}
+          key: hugo-${{ hashFiles('**/*.md', 'hugo.toml') }}
           restore-keys: |
             hugo-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
