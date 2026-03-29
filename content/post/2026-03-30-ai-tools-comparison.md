@@ -5,6 +5,7 @@ date: 2026-03-30 10:00:00
 lastmod: 2026-03-30
 categories: [工具, AI]
 tags: [AI, 工具, 对比]
+draft: false
 excerpt_separator: <!--more>-->
 author: "kaisawind"
 description: "本文全面对比 OpenCode、ClaudeCode 和 QWencode 三个主流 AI 编程助手工具，从多个维度分析它们的优劣势，帮助开发者选择最适合自己需求的工具。"

@@ -5,6 +5,7 @@ date: 2026-02-06 10:57:51
 lastmod: 2026-03-19
 categories: [数据库, mongodb]
 tags: [mongodb]
+draft: false
 excerpt_separator: <!--more-->
 author: "kaisawind"
 description: "MongoDB 时间序列数据库恢复时会自动清理过期数据，首先需要禁用时间序列自动清理。本文介绍如何安全恢复 MongoDB 时间序列数据。"
