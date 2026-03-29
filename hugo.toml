@@ -6,7 +6,7 @@ theme = "hugo.386"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 preserveTaxonomyNames = true
-copyright = "©2016-2024 kaisawind"
+copyright = "©2016-2026 kaisawind"
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
