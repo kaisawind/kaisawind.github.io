@@ -7,6 +7,10 @@ categories: [linux,ubuntu]
 tags: [ubuntu]
 draft: false
 excerpt_separator: <!--more-->
+---
+ffmpeg录屏转rtmp
+<!--more-->
+
 ## 问题描述
 
 需要将桌面操作或RTMP推流到服务器。
@@ -60,15 +64,3 @@ done
 2. **音频设置**：确保音频参数匹配RTMP服务器要求
 3. **测试连接**：推流前测试RTMP服务器是否正常接收
 4. **监控资源**：使用`htop`监控CPU和内存使用
-
----
-ffmpeg录屏转rtmp
-<!--more-->
-
-> **提示**: FFmpeg版本更新较快，建议使用最新稳定版。
-
-
-
-```bash
-ffmpeg -f x11grab -framerate 30 -video_size 1280x720 -i :0.0 -c:v libx264 -vf format=yuv420p -c:a copy -f flv rtmp://xxxxx/live
-```

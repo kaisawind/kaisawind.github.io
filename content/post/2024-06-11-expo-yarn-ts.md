@@ -6,6 +6,10 @@ lastmod: 2026-03-19
 categories: [前端,react]
 tags: [react]
 excerpt_separator: <!--more-->
+---
+yarn创建基于typescript的expo app
+<!--more-->
+
 ## 快速创建
 
 使用yarn创建基于TypeScript的Expo应用：
@@ -68,13 +72,3 @@ my-app/
 1. **使用TypeScript**：强类型约束，减少运行时错误
 2. **组件化开发**：将UI拆分为可复用的组件
 3. **状态管理**：使用Zustand或React Query管理状态
-
----
-yarn创建基于typescript的expo app
-<!--more-->
-
-```bash
-yarn create expo-app -t blank-typescript
-yarn expo prebuild
-yarn add expo-system-ui
-```
