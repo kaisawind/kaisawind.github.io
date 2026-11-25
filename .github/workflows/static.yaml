@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - run: mkdir -p _pages && cp index.html _pages/
+      - run: mkdir -p _pages && cp index.html favicon.ico _pages/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _pages
