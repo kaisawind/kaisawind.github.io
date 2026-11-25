@@ -1,24 +1,14 @@
-# [kaisawind](https://www.kaisawind.com)
+# kaisawind.github.io
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/kaisawind/kaisawind.github.io/master/LICENSE.txt)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c40090e1-18c5-484c-91b0-38d1bcae13c5/deploy-status)](https://app.netlify.com/sites/kaisawind/deploys)
+GitHub 仓库列表页（kaisawind / iotxfoundry / aixfoundry，含私有仓库），替代原 Hugo 博客。
 
-Hugo is a static site generator written in Go, optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.
+## 更新页面
 
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hugo new content content/post/$(date '+%YY-%mm-%dd')-python-struct.md
+```sh
+./generate.sh
+git add index.html && git commit -m "refresh repo list" && git push
 ```
 
-More info: [Writing](https://gohugo.io/getting-started/quick-start/)
+推送 master 后 Pages workflow（`.github/workflows/static.yaml`）自动部署。
 
-### Run server
-
-``` bash
-$ hugo server
-```
-
-More info: [Server](https://gohugo.io/getting-started/quick-start/)
+注意：私有仓库名称、描述会公开出现在 https://kaisawind.github.io 上（已确认接受）。
