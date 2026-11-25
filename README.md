@@ -2,6 +2,9 @@
 
 GitHub 仓库列表页（kaisawind / iotxfoundry / aixfoundry，含私有仓库），替代原 Hugo 博客。
 
+[![Pages deploy](https://github.com/kaisawind/kaisawind.github.io/actions/workflows/static.yaml/badge.svg)](https://github.com/kaisawind/kaisawind.github.io/actions/workflows/static.yaml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c40090e1-18c5-484c-91b0-38d1bcae13c5/deploy-status)](https://app.netlify.com/sites/kaisawind/deploys)
+
 ## 更新页面
 
 ```sh
